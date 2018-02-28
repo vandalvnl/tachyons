@@ -29,6 +29,43 @@
 .hover-near-white:focus { color: var(--near-white); }
 .hover-white:hover, 
 .hover-white:focus { color: var(--white); }
+.hover-material-light{ color: var(--material-light); }
+.hover-material-red{ color: var(--material-red); }
+.hover-material-dark-red{ color: var(--material-dark-red); }
+.hover-material-light-pink{ color: var(--material-light-pink); }
+.hover-material-pink{ color: var(--material-pink); }
+.hover-material-dark-pink{ color: var(--material-dark-pink); }
+.hover-material-deep-light-purple{ color: var(--material-deep-light-purple); }
+.hover-material-deep-purple{ color: var(--material-deep-purple); }
+.hover-material-deep-dark-purple{ color: var(--material-deep-dark-purple); }
+.hover-material-indigo{ color: var(--material-indigo); }
+.hover-material-dark-indigo{ color: var(--material-dark-indigo); }
+.hover-material-light-indigo{ color: var(--material-light-indigo); }
+.hover-material-blue{ color: var(--material-blue); }
+.hover-material-dark-blue{ color: var(--material-dark-blue); }
+.hover-material-light-blue{ color: var(--material-light-blue); }
+.hover-teal{ color: var(--teal); }
+.hover-dark-teal{ color: var(--dark-teal); }
+.hover-light-teal{ color: var(--light-teal); }
+.hover-material-green{ color: var(--material-green); }
+.hover-material-dark-green{ color: var(--material-dark-green); }
+.hover-material-light-green{ color: var(--material-light-green); }
+.hover-lime{ color: var(--lime); }
+.hover-dark-lime{ color: var(--dark-lime); }
+.hover-light-lime{ color: var(--light-lime); }
+.hover-amber{ color: var(--amber); }
+.hover-dark-amber{ color: var(--dark-amber); }
+.hover-light-amber{ color: var(--light-amber); }
+.hover-material-orange{ color: var(--material-orange); }
+.hover-material-dark-orange{ color: var(--material-dark-orange); }
+.hover-material-light-orange{ color: var(--material-light-orange); }
+.hover-brown{ color: var(--brown); }
+.hover-dark-brown{ color: var(--dark-brown); }
+.hover-light-brown{ color: var(--light-brown); }
+.hover-blue-gray{ color: var(--blue-gray); }
+.hover-dark-blue-gray{ color: var(--dark-blue-gray); }
+.hover-light-blue-gray{ color: var(--light-blue-gray); }
+
 
 .hover-black-90:hover,
 .hover-black-90:focus { color: var(--black-90); }
@@ -93,6 +130,42 @@
 .hover-bg-white:focus { background-color: var(--white); }
 .hover-bg-transparent:hover, 
 .hover-bg-transparent:focus { background-color: var(--transparent); }
+.hover-bg-material-light{ background-color: var(--material-light); }
+.hover-bg-material-red{ background-color: var(--material-red); }
+.hover-bg-material-dark-red{ background-color: var(--material-dark-red); }
+.hover-bg-material-light-pink{ background-color: var(--material-light-pink); }
+.hover-bg-material-pink{ background-color: var(--material-pink); }
+.hover-bg-material-dark-pink{ background-color: var(--material-dark-pink); }
+.hover-bg-material-deep-light-purple{ background-color: var(--material-deep-light-purple); }
+.hover-bg-material-deep-purple{ background-color: var(--material-deep-purple); }
+.hover-bg-material-deep-dark-purple{ background-color: var(--material-deep-dark-purple); }
+.hover-bg-material-indigo{ background-color: var(--material-indigo); }
+.hover-bg-material-dark-indigo{ background-color: var(--material-dark-indigo); }
+.hover-bg-material-light-indigo{ background-color: var(--material-light-indigo); }
+.hover-bg-material-blue{ background-color: var(--material-blue); }
+.hover-bg-material-dark-blue{ background-color: var(--material-dark-blue); }
+.hover-bg-material-light-blue{ background-color: var(--material-light-blue); }
+.hover-bg-teal{ background-color: var(--teal); }
+.hover-bg-dark-teal{ background-color: var(--dark-teal); }
+.hover-bg-light-teal{ background-color: var(--light-teal); }
+.hover-bg-material-green{ background-color: var(--material-green); }
+.hover-bg-material-dark-green{ background-color: var(--material-dark-green); }
+.hover-bg-material-light-green{ background-color: var(--material-light-green); }
+.hover-bg-lime{ background-color: var(--lime); }
+.hover-bg-dark-lime{ background-color: var(--dark-lime); }
+.hover-bg-light-lime{ background-color: var(--light-lime); }
+.hover-bg-amber{ background-color: var(--amber); }
+.hover-bg-dark-amber{ background-color: var(--dark-amber); }
+.hover-bg-light-amber{ background-color: var(--light-amber); }
+.hover-bg-material-orange{ background-color: var(--material-orange); }
+.hover-bg-material-dark-orange{ background-color: var(--material-dark-orange); }
+.hover-bg-material-light-orange{ background-color: var(--material-light-orange); }
+.hover-bg-brown{ background-color: var(--brown); }
+.hover-bg-dark-brown{ background-color: var(--dark-brown); }
+.hover-bg-light-brown{ background-color: var(--light-brown); }
+.hover-bg-blue-gray{ background-color: var(--blue-gray); }
+.hover-bg-dark-blue-gray{ background-color: var(--dark-blue-gray); }
+.hover-bg-light-blue-gray{ background-color: var(--light-blue-gray); }
 
 .hover-bg-black-90:hover,
 .hover-bg-black-90:focus { background-color: var(--black-90); }
