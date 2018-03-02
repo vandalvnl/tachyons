@@ -335,324 +335,324 @@
 
 /* Background colors */
 
-.black {
+.bg-black {
 	background-color: var(--black);
 }
-.near-black {
+.bg-near-black {
 	background-color: var(--near-black);
 }
-.dark-gray {
+.bg-dark-gray {
 	background-color: var(--dark-gray);
 }
-.mid-gray {
+.bg-mid-gray {
 	background-color: var(--mid-gray);
 }
-.gray {
+.bg-gray {
 	background-color: var(--gray);
 }
-.silver {
+.bg-silver {
 	background-color: var(--silver);
 }
-.light-silver {
+.bg-light-silver {
 	background-color: var(--light-silver);
 }
-.moon-gray {
+.bg-moon-gray {
 	background-color: var(--moon-gray);
 }
-.light-gray {
+.bg-light-gray {
 	background-color: var(--light-gray);
 }
-.near-white {
+.bg-near-white {
 	background-color: var(--near-white);
 }
-.white {
+.bg-white {
 	background-color: var(--white);
 }
-.transparent {
+.bg-transparent {
 	background-color: var(--transparent);
 }
-.black-90 {
+.bg-black-90 {
 	background-color: var(--black-90);
 }
-.black-80 {
+.bg-black-80 {
 	background-color: var(--black-80);
 }
-.black-70 {
+.bg-black-70 {
 	background-color: var(--black-70);
 }
-.black-60 {
+.bg-black-60 {
 	background-color: var(--black-60);
 }
-.black-50 {
+.bg-black-50 {
 	background-color: var(--black-50);
 }
-.black-40 {
+.bg-black-40 {
 	background-color: var(--black-40);
 }
-.black-30 {
+.bg-black-30 {
 	background-color: var(--black-30);
 }
-.black-20 {
+.bg-black-20 {
 	background-color: var(--black-20);
 }
-.black-10 {
+.bg-black-10 {
 	background-color: var(--black-10);
 }
-.black-05 {
+.bg-black-05 {
 	background-color: var(--black-05);
 }
-.black-025 {
+.bg-black-025 {
 	background-color: var(--black-025);
 }
-.black-0125 {
+.bg-black-0125 {
 	background-color: var(--black-0125);
 }
-.white-90 {
+.bg-white-90 {
 	background-color: var(--white-90);
 }
-.white-80 {
+.bg-white-80 {
 	background-color: var(--white-80);
 }
-.white-70 {
+.bg-white-70 {
 	background-color: var(--white-70);
 }
-.white-60 {
+.bg-white-60 {
 	background-color: var(--white-60);
 }
-.white-50 {
+.bg-white-50 {
 	background-color: var(--white-50);
 }
-.white-40 {
+.bg-white-40 {
 	background-color: var(--white-40);
 }
-.white-30 {
+.bg-white-30 {
 	background-color: var(--white-30);
 }
-.white-20 {
+.bg-white-20 {
 	background-color: var(--white-20);
 }
-.white-10 {
+.bg-white-10 {
 	background-color: var(--white-10);
 }
-.white-05 {
+.bg-white-05 {
 	background-color: var(--white-05);
 }
-.white-025 {
+.bg-white-025 {
 	background-color: var(--white-025);
 }
-.white-0125 {
+.bg-white-0125 {
 	background-color: var(--white-0125);
 }
-.dark-red {
+.bg-dark-red {
 	background-color: var(--dark-red);
 }
-.red {
+.bg-red {
 	background-color: var(--red);
 }
-.light-red {
+.bg-light-red {
 	background-color: var(--light-red);
 }
-.orange {
+.bg-orange {
 	background-color: var(--orange);
 }
-.gold {
+.bg-gold {
 	background-color: var(--gold);
 }
-.yellow {
+.bg-yellow {
 	background-color: var(--yellow);
 }
-.light-yellow {
+.bg-light-yellow {
 	background-color: var(--light-yellow);
 }
-.purple {
+.bg-purple {
 	background-color: var(--purple);
 }
-.light-purple {
+.bg-light-purple {
 	background-color: var(--light-purple);
 }
-.dark-pink {
+.bg-dark-pink {
 	background-color: var(--dark-pink);
 }
-.hot-pink {
+.bg-hot-pink {
 	background-color: var(--hot-pink);
 }
-.pink {
+.bg-pink {
 	background-color: var(--pink);
 }
-.light-pink {
+.bg-light-pink {
 	background-color: var(--light-pink);
 }
-.dark-green {
+.bg-dark-green {
 	background-color: var(--dark-green);
 }
-.green {
+.bg-green {
 	background-color: var(--green);
 }
-.light-green {
+.bg-light-green {
 	background-color: var(--light-green);
 }
-.navy {
+.bg-navy {
 	background-color: var(--navy);
 }
-.dark-blue {
+.bg-dark-blue {
 	background-color: var(--dark-blue);
 }
-.blue {
+.bg-blue {
 	background-color: var(--blue);
 }
-.light-blue {
+.bg-light-blue {
 	background-color: var(--light-blue);
 }
-.lightest-blue {
+.bg-lightest-blue {
 	background-color: var(--lightest-blue);
 }
-.washed-blue {
+.bg-washed-blue {
 	background-color: var(--washed-blue);
 }
-.washed-green {
+.bg-washed-green {
 	background-color: var(--washed-green);
 }
-.washed-yellow {
+.bg-washed-yellow {
 	background-color: var(--washed-yellow);
 }
-.washed-red {
+.bg-washed-red {
 	background-color: var(--washed-red);
 }
-.material-light {
+.bg-material-light {
 	background-color: var(--material-light);
 }
-.material-red {
+.bg-material-red {
 	background-color: var(--material-red);
 }
-.material-dark-red {
+.bg-material-dark-red {
 	background-color: var(--material-dark-red);
 }
-.material-light-pink {
+.bg-material-light-pink {
 	background-color: var(--material-light-pink);
 }
-.material-pink {
+.bg-material-pink {
 	background-color: var(--material-pink);
 }
-.material-dark-pink {
+.bg-material-dark-pink {
 	background-color: var(--material-dark-pink);
 }
-.material-deep-light-purple {
+.bg-material-deep-light-purple {
 	background-color: var(--material-deep-light-purple);
 }
-.material-deep-purple {
+.bg-material-deep-purple {
 	background-color: var(--material-deep-purple);
 }
-.material-deep-dark-purple {
+.bg-material-deep-dark-purple {
 	background-color: var(--material-deep-dark-purple);
 }
-.material-indigo {
+.bg-material-indigo {
 	background-color: var(--material-indigo);
 }
-.material-dark-indigo {
+.bg-material-dark-indigo {
 	background-color: var(--material-dark-indigo);
 }
-.material-light-indigo {
+.bg-material-light-indigo {
 	background-color: var(--material-light-indigo);
 }
-.material-blue {
+.bg-material-blue {
 	background-color: var(--material-blue);
 }
-.material-dark-blue {
+.bg-material-dark-blue {
 	background-color: var(--material-dark-blue);
 }
-.material-light-blue {
+.bg-material-light-blue {
 	background-color: var(--material-light-blue);
 }
-.teal {
+.bg-teal {
 	background-color: var(--teal);
 }
-.dark-teal {
+.bg-dark-teal {
 	background-color: var(--dark-teal);
 }
-.light-teal {
+.bg-light-teal {
 	background-color: var(--light-teal);
 }
-.material-green {
+.bg-material-green {
 	background-color: var(--material-green);
 }
-.material-dark-green {
+.bg-material-dark-green {
 	background-color: var(--material-dark-green);
 }
-.material-light-green {
+.bg-material-light-green {
 	background-color: var(--material-light-green);
 }
-.lime {
+.bg-lime {
 	background-color: var(--lime);
 }
-.dark-lime {
+.bg-dark-lime {
 	background-color: var(--dark-lime);
 }
-.light-lime {
+.bg-light-lime {
 	background-color: var(--light-lime);
 }
-.amber {
+.bg-amber {
 	background-color: var(--amber);
 }
-.dark-amber {
+.bg-dark-amber {
 	background-color: var(--dark-amber);
 }
-.light-amber {
+.bg-light-amber {
 	background-color: var(--light-amber);
 }
-.material-orange {
+.bg-material-orange {
 	background-color: var(--material-orange);
 }
-.material-dark-orange {
+.bg-material-dark-orange {
 	background-color: var(--material-dark-orange);
 }
-.material-light-orange {
+.bg-material-light-orange {
 	background-color: var(--material-light-orange);
 }
-.brown {
+.bg-brown {
 	background-color: var(--brown);
 }
-.dark-brown {
+.bg-dark-brown {
 	background-color: var(--dark-brown);
 }
-.light-brown {
+.bg-light-brown {
 	background-color: var(--light-brown);
 }
-.blue-gray {
+.bg-blue-gray {
 	background-color: var(--blue-gray);
 }
-.dark-blue-gray {
+.bg-dark-blue-gray {
 	background-color: var(--dark-blue-gray);
 }
-.light-blue-gray {
+.bg-light-blue-gray {
 	background-color: var(--light-blue-gray);
 }
-.pastel-dark-green {
+.bg-pastel-dark-green {
 	background-color: var(--pastel-dark-green);
 }
-.pastel-green {
+.bg-pastel-green {
 	background-color: var(--pastel-green);
 }
-.pastel-light-green {
+.bg-pastel-light-green {
 	background-color: var(--pastel-light-green);
 }
-.pastel-light-red {
+.bg-pastel-light-red {
 	background-color: var(--pastel-light-red);
 }
-.pastel-lime {
+.bg-pastel-lime {
 	background-color: var(--pastel-lime);
 }
-.pastel-yellow {
+.bg-pastel-yellow {
 	background-color: var(--pastel-yellow);
 }
-.pastel-orange {
+.bg-pastel-orange {
 	background-color: var(--pastel-orange);
 }
-.pastel-red {
+.bg-pastel-red {
 	background-color: var(--pastel-red);
 }
-.pastel-light-brown {
+.bg-pastel-light-brown {
 	background-color: var(--pastel-light-brown);
 }
-.pastel-light-blue {
+.bg-pastel-light-blue {
 	background-color: var(--pastel-light-blue);
 }
