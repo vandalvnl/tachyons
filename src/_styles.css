@@ -6,3 +6,754 @@
 
 */
 
+.no-selection {
+	user-select: none;
+}
+
+/* Colors for foreground */
+
+.selection-black::selection {
+	color: var(--black);
+}
+.selection-near-black::selection {
+	color: var(--near-black);
+}
+.selection-dark-gray::selection {
+	color: var(--dark-gray);
+}
+.selection-mid-gray::selection {
+	color: var(--mid-gray);
+}
+.selection-gray::selection {
+	color: var(--gray);
+}
+.selection-silver::selection {
+	color: var(--silver);
+}
+.selection-light-silver::selection {
+	color: var(--light-silver);
+}
+.selection-moon-gray::selection {
+	color: var(--moon-gray);
+}
+.selection-light-gray::selection {
+	color: var(--light-gray);
+}
+.selection-near-white::selection {
+	color: var(--near-white);
+}
+.selection-white::selection {
+	color: var(--white);
+}
+.selection-transparent::selection {
+	color: var(--transparent);
+}
+.selection-black-90::selection {
+	color: var(--black-90);
+}
+.selection-black-80::selection {
+	color: var(--black-80);
+}
+.selection-black-70::selection {
+	color: var(--black-70);
+}
+.selection-black-60::selection {
+	color: var(--black-60);
+}
+.selection-black-50::selection {
+	color: var(--black-50);
+}
+.selection-black-40::selection {
+	color: var(--black-40);
+}
+.selection-black-30::selection {
+	color: var(--black-30);
+}
+.selection-black-20::selection {
+	color: var(--black-20);
+}
+.selection-black-10::selection {
+	color: var(--black-10);
+}
+.selection-black-05::selection {
+	color: var(--black-05);
+}
+.selection-black-025::selection {
+	color: var(--black-025);
+}
+.selection-black-0125::selection {
+	color: var(--black-0125);
+}
+.selection-white-90::selection {
+	color: var(--white-90);
+}
+.selection-white-80::selection {
+	color: var(--white-80);
+}
+.selection-white-70::selection {
+	color: var(--white-70);
+}
+.selection-white-60::selection {
+	color: var(--white-60);
+}
+.selection-white-50::selection {
+	color: var(--white-50);
+}
+.selection-white-40::selection {
+	color: var(--white-40);
+}
+.selection-white-30::selection {
+	color: var(--white-30);
+}
+.selection-white-20::selection {
+	color: var(--white-20);
+}
+.selection-white-10::selection {
+	color: var(--white-10);
+}
+.selection-white-05::selection {
+	color: var(--white-05);
+}
+.selection-white-025::selection {
+	color: var(--white-025);
+}
+.selection-white-0125::selection {
+	color: var(--white-0125);
+}
+.selection-dark-red::selection {
+	color: var(--dark-red);
+}
+.selection-red::selection {
+	color: var(--red);
+}
+.selection-light-red::selection {
+	color: var(--light-red);
+}
+.selection-orange::selection {
+	color: var(--orange);
+}
+.selection-gold::selection {
+	color: var(--gold);
+}
+.selection-yellow::selection {
+	color: var(--yellow);
+}
+.selection-light-yellow::selection {
+	color: var(--light-yellow);
+}
+.selection-purple::selection {
+	color: var(--purple);
+}
+.selection-light-purple::selection {
+	color: var(--light-purple);
+}
+.selection-dark-pink::selection {
+	color: var(--dark-pink);
+}
+.selection-hot-pink::selection {
+	color: var(--hot-pink);
+}
+.selection-pink::selection {
+	color: var(--pink);
+}
+.selection-light-pink::selection {
+	color: var(--light-pink);
+}
+.selection-dark-green::selection {
+	color: var(--dark-green);
+}
+.selection-green::selection {
+	color: var(--green);
+}
+.selection-light-green::selection {
+	color: var(--light-green);
+}
+.selection-navy::selection {
+	color: var(--navy);
+}
+.selection-dark-blue::selection {
+	color: var(--dark-blue);
+}
+.selection-blue::selection {
+	color: var(--blue);
+}
+.selection-light-blue::selection {
+	color: var(--light-blue);
+}
+.selection-lightest-blue::selection {
+	color: var(--lightest-blue);
+}
+.selection-washed-blue::selection {
+	color: var(--washed-blue);
+}
+.selection-washed-green::selection {
+	color: var(--washed-green);
+}
+.selection-washed-yellow::selection {
+	color: var(--washed-yellow);
+}
+.selection-washed-red::selection {
+	color: var(--washed-red);
+}
+.selection-material-light::selection {
+	color: var(--material-light);
+}
+.selection-material-red::selection {
+	color: var(--material-red);
+}
+.selection-material-dark-red::selection {
+	color: var(--material-dark-red);
+}
+.selection-material-light-pink::selection {
+	color: var(--material-light-pink);
+}
+.selection-material-pink::selection {
+	color: var(--material-pink);
+}
+.selection-material-dark-pink::selection {
+	color: var(--material-dark-pink);
+}
+.selection-material-deep-light-purple::selection {
+	color: var(--material-deep-light-purple);
+}
+.selection-material-deep-purple::selection {
+	color: var(--material-deep-purple);
+}
+.selection-material-deep-dark-purple::selection {
+	color: var(--material-deep-dark-purple);
+}
+.selection-material-indigo::selection {
+	color: var(--material-indigo);
+}
+.selection-material-dark-indigo::selection {
+	color: var(--material-dark-indigo);
+}
+.selection-material-light-indigo::selection {
+	color: var(--material-light-indigo);
+}
+.selection-material-blue::selection {
+	color: var(--material-blue);
+}
+.selection-material-dark-blue::selection {
+	color: var(--material-dark-blue);
+}
+.selection-material-light-blue::selection {
+	color: var(--material-light-blue);
+}
+.selection-teal::selection {
+	color: var(--teal);
+}
+.selection-dark-teal::selection {
+	color: var(--dark-teal);
+}
+.selection-light-teal::selection {
+	color: var(--light-teal);
+}
+.selection-material-green::selection {
+	color: var(--material-green);
+}
+.selection-material-dark-green::selection {
+	color: var(--material-dark-green);
+}
+.selection-material-light-green::selection {
+	color: var(--material-light-green);
+}
+.selection-lime::selection {
+	color: var(--lime);
+}
+.selection-dark-lime::selection {
+	color: var(--dark-lime);
+}
+.selection-light-lime::selection {
+	color: var(--light-lime);
+}
+.selection-amber::selection {
+	color: var(--amber);
+}
+.selection-dark-amber::selection {
+	color: var(--dark-amber);
+}
+.selection-light-amber::selection {
+	color: var(--light-amber);
+}
+.selection-material-orange::selection {
+	color: var(--material-orange);
+}
+.selection-material-dark-orange::selection {
+	color: var(--material-dark-orange);
+}
+.selection-material-light-orange::selection {
+	color: var(--material-light-orange);
+}
+.selection-brown::selection {
+	color: var(--brown);
+}
+.selection-dark-brown::selection {
+	color: var(--dark-brown);
+}
+.selection-light-brown::selection {
+	color: var(--light-brown);
+}
+.selection-blue-gray::selection {
+	color: var(--blue-gray);
+}
+.selection-dark-blue-gray::selection {
+	color: var(--dark-blue-gray);
+}
+.selection-light-blue-gray::selection {
+	color: var(--light-blue-gray);
+}
+.selection-pastel-dark-green::selection {
+	color: var(--pastel-dark-green);
+}
+.selection-pastel-green::selection {
+	color: var(--pastel-green);
+}
+.selection-pastel-light-green::selection {
+	color: var(--pastel-light-green);
+}
+.selection-pastel-light-red::selection {
+	color: var(--pastel-light-red);
+}
+.selection-pastel-lime::selection {
+	color: var(--pastel-lime);
+}
+.selection-pastel-yellow::selection {
+	color: var(--pastel-yellow);
+}
+.selection-pastel-orange::selection {
+	color: var(--pastel-orange);
+}
+.selection-pastel-red::selection {
+	color: var(--pastel-red);
+}
+.selection-pastel-light-brown::selection {
+	color: var(--pastel-light-brown);
+}
+.selection-pastel-light-blue::selection {
+	color: var(--pastel-light-blue);
+}
+
+/* Selection for background */
+.selection-bg-black::selection {
+	background-color: var(--black);
+}
+.selection-bg-near-black::selection {
+	background-color: var(--near-black);
+}
+.selection-bg-dark-gray::selection {
+	background-color: var(--dark-gray);
+}
+.selection-bg-mid-gray::selection {
+	background-color: var(--mid-gray);
+}
+.selection-bg-gray::selection {
+	background-color: var(--gray);
+}
+.selection-bg-silver::selection {
+	background-color: var(--silver);
+}
+.selection-bg-light-silver::selection {
+	background-color: var(--light-silver);
+}
+.selection-bg-moon-gray::selection {
+	background-color: var(--moon-gray);
+}
+.selection-bg-light-gray::selection {
+	background-color: var(--light-gray);
+}
+.selection-bg-near-white::selection {
+	background-color: var(--near-white);
+}
+.selection-bg-white::selection {
+	background-color: var(--white);
+}
+.selection-bg-transparent::selection {
+	background-color: var(--transparent);
+}
+.selection-bg-black-90::selection {
+	background-color: var(--black-90);
+}
+.selection-bg-black-80::selection {
+	background-color: var(--black-80);
+}
+.selection-bg-black-70::selection {
+	background-color: var(--black-70);
+}
+.selection-bg-black-60::selection {
+	background-color: var(--black-60);
+}
+.selection-bg-black-50::selection {
+	background-color: var(--black-50);
+}
+.selection-bg-black-40::selection {
+	background-color: var(--black-40);
+}
+.selection-bg-black-30::selection {
+	background-color: var(--black-30);
+}
+.selection-bg-black-20::selection {
+	background-color: var(--black-20);
+}
+.selection-bg-black-10::selection {
+	background-color: var(--black-10);
+}
+.selection-bg-black-05::selection {
+	background-color: var(--black-05);
+}
+.selection-bg-black-025::selection {
+	background-color: var(--black-025);
+}
+.selection-bg-black-0125::selection {
+	background-color: var(--black-0125);
+}
+.selection-bg-white-90::selection {
+	background-color: var(--white-90);
+}
+.selection-bg-white-80::selection {
+	background-color: var(--white-80);
+}
+.selection-bg-white-70::selection {
+	background-color: var(--white-70);
+}
+.selection-bg-white-60::selection {
+	background-color: var(--white-60);
+}
+.selection-bg-white-50::selection {
+	background-color: var(--white-50);
+}
+.selection-bg-white-40::selection {
+	background-color: var(--white-40);
+}
+.selection-bg-white-30::selection {
+	background-color: var(--white-30);
+}
+.selection-bg-white-20::selection {
+	background-color: var(--white-20);
+}
+.selection-bg-white-10::selection {
+	background-color: var(--white-10);
+}
+.selection-bg-white-05::selection {
+	background-color: var(--white-05);
+}
+.selection-bg-white-025::selection {
+	background-color: var(--white-025);
+}
+.selection-bg-white-0125::selection {
+	background-color: var(--white-0125);
+}
+.selection-bg-dark-red::selection {
+	background-color: var(--dark-red);
+}
+.selection-bg-red::selection {
+	background-color: var(--red);
+}
+.selection-bg-light-red::selection {
+	background-color: var(--light-red);
+}
+.selection-bg-orange::selection {
+	background-color: var(--orange);
+}
+.selection-bg-gold::selection {
+	background-color: var(--gold);
+}
+.selection-bg-yellow::selection {
+	background-color: var(--yellow);
+}
+.selection-bg-light-yellow::selection {
+	background-color: var(--light-yellow);
+}
+.selection-bg-purple::selection {
+	background-color: var(--purple);
+}
+.selection-bg-light-purple::selection {
+	background-color: var(--light-purple);
+}
+.selection-bg-dark-pink::selection {
+	background-color: var(--dark-pink);
+}
+.selection-bg-hot-pink::selection {
+	background-color: var(--hot-pink);
+}
+.selection-bg-pink::selection {
+	background-color: var(--pink);
+}
+.selection-bg-light-pink::selection {
+	background-color: var(--light-pink);
+}
+.selection-bg-dark-green::selection {
+	background-color: var(--dark-green);
+}
+.selection-bg-green::selection {
+	background-color: var(--green);
+}
+.selection-bg-light-green::selection {
+	background-color: var(--light-green);
+}
+.selection-bg-navy::selection {
+	background-color: var(--navy);
+}
+.selection-bg-dark-blue::selection {
+	background-color: var(--dark-blue);
+}
+.selection-bg-blue::selection {
+	background-color: var(--blue);
+}
+.selection-bg-light-blue::selection {
+	background-color: var(--light-blue);
+}
+.selection-bg-lightest-blue::selection {
+	background-color: var(--lightest-blue);
+}
+.selection-bg-washed-blue::selection {
+	background-color: var(--washed-blue);
+}
+.selection-bg-washed-green::selection {
+	background-color: var(--washed-green);
+}
+.selection-bg-washed-yellow::selection {
+	background-color: var(--washed-yellow);
+}
+.selection-bg-washed-red::selection {
+	background-color: var(--washed-red);
+}
+.selection-bg-material-light::selection {
+	background-color: var(--material-light);
+}
+.selection-bg-material-red::selection {
+	background-color: var(--material-red);
+}
+.selection-bg-material-dark-red::selection {
+	background-color: var(--material-dark-red);
+}
+.selection-bg-material-light-pink::selection {
+	background-color: var(--material-light-pink);
+}
+.selection-bg-material-pink::selection {
+	background-color: var(--material-pink);
+}
+.selection-bg-material-dark-pink::selection {
+	background-color: var(--material-dark-pink);
+}
+.selection-bg-material-deep-light-purple::selection {
+	background-color: var(--material-deep-light-purple);
+}
+.selection-bg-material-deep-purple::selection {
+	background-color: var(--material-deep-purple);
+}
+.selection-bg-material-deep-dark-purple::selection {
+	background-color: var(--material-deep-dark-purple);
+}
+.selection-bg-material-indigo::selection {
+	background-color: var(--material-indigo);
+}
+.selection-bg-material-dark-indigo::selection {
+	background-color: var(--material-dark-indigo);
+}
+.selection-bg-material-light-indigo::selection {
+	background-color: var(--material-light-indigo);
+}
+.selection-bg-material-blue::selection {
+	background-color: var(--material-blue);
+}
+.selection-bg-material-dark-blue::selection {
+	background-color: var(--material-dark-blue);
+}
+.selection-bg-material-light-blue::selection {
+	background-color: var(--material-light-blue);
+}
+.selection-bg-teal::selection {
+	background-color: var(--teal);
+}
+.selection-bg-dark-teal::selection {
+	background-color: var(--dark-teal);
+}
+.selection-bg-light-teal::selection {
+	background-color: var(--light-teal);
+}
+.selection-bg-material-green::selection {
+	background-color: var(--material-green);
+}
+.selection-bg-material-dark-green::selection {
+	background-color: var(--material-dark-green);
+}
+.selection-bg-material-light-green::selection {
+	background-color: var(--material-light-green);
+}
+.selection-bg-lime::selection {
+	background-color: var(--lime);
+}
+.selection-bg-dark-lime::selection {
+	background-color: var(--dark-lime);
+}
+.selection-bg-light-lime::selection {
+	background-color: var(--light-lime);
+}
+.selection-bg-amber::selection {
+	background-color: var(--amber);
+}
+.selection-bg-dark-amber::selection {
+	background-color: var(--dark-amber);
+}
+.selection-bg-light-amber::selection {
+	background-color: var(--light-amber);
+}
+.selection-bg-material-orange::selection {
+	background-color: var(--material-orange);
+}
+.selection-bg-material-dark-orange::selection {
+	background-color: var(--material-dark-orange);
+}
+.selection-bg-material-light-orange::selection {
+	background-color: var(--material-light-orange);
+}
+.selection-bg-brown::selection {
+	background-color: var(--brown);
+}
+.selection-bg-dark-brown::selection {
+	background-color: var(--dark-brown);
+}
+.selection-bg-light-brown::selection {
+	background-color: var(--light-brown);
+}
+.selection-bg-blue-gray::selection {
+	background-color: var(--blue-gray);
+}
+.selection-bg-dark-blue-gray::selection {
+	background-color: var(--dark-blue-gray);
+}
+.selection-bg-light-blue-gray::selection {
+	background-color: var(--light-blue-gray);
+}
+.selection-bg-pastel-dark-green::selection {
+	background-color: var(--pastel-dark-green);
+}
+.selection-bg-pastel-green::selection {
+	background-color: var(--pastel-green);
+}
+.selection-bg-pastel-light-green::selection {
+	background-color: var(--pastel-light-green);
+}
+.selection-bg-pastel-light-red::selection {
+	background-color: var(--pastel-light-red);
+}
+.selection-bg-pastel-lime::selection {
+	background-color: var(--pastel-lime);
+}
+.selection-bg-pastel-yellow::selection {
+	background-color: var(--pastel-yellow);
+}
+.selection-bg-pastel-orange::selection {
+	background-color: var(--pastel-orange);
+}
+.selection-bg-pastel-red::selection {
+	background-color: var(--pastel-red);
+}
+.selection-bg-pastel-light-brown::selection {
+	background-color: var(--pastel-light-brown);
+}
+.selection-bg-pastel-light-blue::selection {
+	background-color: var(--pastel-light-blue);
+}
+
+.text-trunc-10 {
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	width: 10%;
+}
+.text-trunc-20 {
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	width: 20%;
+}
+.text-trunc-30 {
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	width: 30%;
+}
+.text-trunc-40 {
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	width: 40%;
+}
+.text-trunc-50 {
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	width: 50%;
+}
+.text-trunc-60 {
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	width: 60%;
+}
+.text-trunc-70 {
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	width: 70%;
+}
+.text-trunc-80 {
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	width: 80%;
+}
+.text-trunc-90 {
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	width: 90%;
+}
+.text-trunc-100 {
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	width: 100%;
+}
+
+ul.breadcrumb {
+	padding: 10px 16px;
+	list-style: none;
+	background-color: #eee;
+}
+
+ul.breadcrumb li {
+	display: inline;
+	font-size: 18px;
+}
+
+ul.breadcrumb li + li:before {
+	padding: 8px;
+	color: black;
+	content: '/\00a0';
+}
+
+.progress-bar {
+	text-align: center;
+	line-height: 40px;
+	color: transparent;
+}
+
+.loader {
+	border: 16px solid #f3f3f3; /* Light grey */
+	border-radius: 50%;
+	min-width: 120px;
+	min-height: 120px;
+	animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+	0% {
+		transform: rotate(0deg);
+	}
+	100% {
+		transform: rotate(360deg);
+	}
+}

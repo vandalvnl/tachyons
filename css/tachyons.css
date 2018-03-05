@@ -828,8 +828,6 @@ code, .code { font-family: Consolas, monaco, monospace; }
 .calisto { font-family: 'Calisto MT', serif; }
 .garamond { font-family: garamond, serif; }
 .baskerville { font-family: baskerville, serif; }
-.montserrat { font-family: 'Montserrat', serif; }
-.montserrat { font-family: 'Raleway', serif; }
 /*
 
    FONT STYLE
@@ -2580,6 +2578,456 @@ code, .code { font-family: Consolas, monaco, monospace; }
   Add custom styles here.
 
 */
+.no-selection { -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none; }
+/* Colors for foreground */
+.selection-black::-moz-selection { color: #000; }
+.selection-black::selection { color: #000; }
+.selection-near-black::-moz-selection { color: #111; }
+.selection-near-black::selection { color: #111; }
+.selection-dark-gray::-moz-selection { color: #333; }
+.selection-dark-gray::selection { color: #333; }
+.selection-mid-gray::-moz-selection { color: #555; }
+.selection-mid-gray::selection { color: #555; }
+.selection-gray::-moz-selection { color: #777; }
+.selection-gray::selection { color: #777; }
+.selection-silver::-moz-selection { color: #999; }
+.selection-silver::selection { color: #999; }
+.selection-light-silver::-moz-selection { color: #aaa; }
+.selection-light-silver::selection { color: #aaa; }
+.selection-moon-gray::-moz-selection { color: #ccc; }
+.selection-moon-gray::selection { color: #ccc; }
+.selection-light-gray::-moz-selection { color: #eee; }
+.selection-light-gray::selection { color: #eee; }
+.selection-near-white::-moz-selection { color: #f4f4f4; }
+.selection-near-white::selection { color: #f4f4f4; }
+.selection-white::-moz-selection { color: #fff; }
+.selection-white::selection { color: #fff; }
+.selection-transparent::-moz-selection { color: transparent; }
+.selection-transparent::selection { color: transparent; }
+.selection-black-90::-moz-selection { color: rgba( 0, 0, 0, .9 ); }
+.selection-black-90::selection { color: rgba( 0, 0, 0, .9 ); }
+.selection-black-80::-moz-selection { color: rgba( 0, 0, 0, .8 ); }
+.selection-black-80::selection { color: rgba( 0, 0, 0, .8 ); }
+.selection-black-70::-moz-selection { color: rgba( 0, 0, 0, .7 ); }
+.selection-black-70::selection { color: rgba( 0, 0, 0, .7 ); }
+.selection-black-60::-moz-selection { color: rgba( 0, 0, 0, .6 ); }
+.selection-black-60::selection { color: rgba( 0, 0, 0, .6 ); }
+.selection-black-50::-moz-selection { color: rgba( 0, 0, 0, .5 ); }
+.selection-black-50::selection { color: rgba( 0, 0, 0, .5 ); }
+.selection-black-40::-moz-selection { color: rgba( 0, 0, 0, .4 ); }
+.selection-black-40::selection { color: rgba( 0, 0, 0, .4 ); }
+.selection-black-30::-moz-selection { color: rgba( 0, 0, 0, .3 ); }
+.selection-black-30::selection { color: rgba( 0, 0, 0, .3 ); }
+.selection-black-20::-moz-selection { color: rgba( 0, 0, 0, .2 ); }
+.selection-black-20::selection { color: rgba( 0, 0, 0, .2 ); }
+.selection-black-10::-moz-selection { color: rgba( 0, 0, 0, .1 ); }
+.selection-black-10::selection { color: rgba( 0, 0, 0, .1 ); }
+.selection-black-05::-moz-selection { color: rgba( 0, 0, 0, .05 ); }
+.selection-black-05::selection { color: rgba( 0, 0, 0, .05 ); }
+.selection-black-025::-moz-selection { color: rgba( 0, 0, 0, .025 ); }
+.selection-black-025::selection { color: rgba( 0, 0, 0, .025 ); }
+.selection-black-0125::-moz-selection { color: rgba( 0, 0, 0, .0125 ); }
+.selection-black-0125::selection { color: rgba( 0, 0, 0, .0125 ); }
+.selection-white-90::-moz-selection { color: rgba( 255, 255, 255, .9 ); }
+.selection-white-90::selection { color: rgba( 255, 255, 255, .9 ); }
+.selection-white-80::-moz-selection { color: rgba( 255, 255, 255, .8 ); }
+.selection-white-80::selection { color: rgba( 255, 255, 255, .8 ); }
+.selection-white-70::-moz-selection { color: rgba( 255, 255, 255, .7 ); }
+.selection-white-70::selection { color: rgba( 255, 255, 255, .7 ); }
+.selection-white-60::-moz-selection { color: rgba( 255, 255, 255, .6 ); }
+.selection-white-60::selection { color: rgba( 255, 255, 255, .6 ); }
+.selection-white-50::-moz-selection { color: rgba( 255, 255, 255, .5 ); }
+.selection-white-50::selection { color: rgba( 255, 255, 255, .5 ); }
+.selection-white-40::-moz-selection { color: rgba( 255, 255, 255, .4 ); }
+.selection-white-40::selection { color: rgba( 255, 255, 255, .4 ); }
+.selection-white-30::-moz-selection { color: rgba( 255, 255, 255, .3 ); }
+.selection-white-30::selection { color: rgba( 255, 255, 255, .3 ); }
+.selection-white-20::-moz-selection { color: rgba( 255, 255, 255, .2 ); }
+.selection-white-20::selection { color: rgba( 255, 255, 255, .2 ); }
+.selection-white-10::-moz-selection { color: rgba( 255, 255, 255, .1 ); }
+.selection-white-10::selection { color: rgba( 255, 255, 255, .1 ); }
+.selection-white-05::-moz-selection { color: rgba( 255, 255, 255, .05 ); }
+.selection-white-05::selection { color: rgba( 255, 255, 255, .05 ); }
+.selection-white-025::-moz-selection { color: rgba( 255, 255, 255, .025 ); }
+.selection-white-025::selection { color: rgba( 255, 255, 255, .025 ); }
+.selection-white-0125::-moz-selection { color: rgba( 255, 255, 255, .0125 ); }
+.selection-white-0125::selection { color: rgba( 255, 255, 255, .0125 ); }
+.selection-dark-red::-moz-selection { color: #e7040f; }
+.selection-dark-red::selection { color: #e7040f; }
+.selection-red::-moz-selection { color: #ff4136; }
+.selection-red::selection { color: #ff4136; }
+.selection-light-red::-moz-selection { color: #ff725c; }
+.selection-light-red::selection { color: #ff725c; }
+.selection-orange::-moz-selection { color: #ff6300; }
+.selection-orange::selection { color: #ff6300; }
+.selection-gold::-moz-selection { color: #ffb700; }
+.selection-gold::selection { color: #ffb700; }
+.selection-yellow::-moz-selection { color: #ffd700; }
+.selection-yellow::selection { color: #ffd700; }
+.selection-light-yellow::-moz-selection { color: #fbf1a9; }
+.selection-light-yellow::selection { color: #fbf1a9; }
+.selection-purple::-moz-selection { color: #5e2ca5; }
+.selection-purple::selection { color: #5e2ca5; }
+.selection-light-purple::-moz-selection { color: #a463f2; }
+.selection-light-purple::selection { color: #a463f2; }
+.selection-dark-pink::-moz-selection { color: #d5008f; }
+.selection-dark-pink::selection { color: #d5008f; }
+.selection-hot-pink::-moz-selection { color: #ff41b4; }
+.selection-hot-pink::selection { color: #ff41b4; }
+.selection-pink::-moz-selection { color: #ff80cc; }
+.selection-pink::selection { color: #ff80cc; }
+.selection-light-pink::-moz-selection { color: #ffa3d7; }
+.selection-light-pink::selection { color: #ffa3d7; }
+.selection-dark-green::-moz-selection { color: #137752; }
+.selection-dark-green::selection { color: #137752; }
+.selection-green::-moz-selection { color: #19a974; }
+.selection-green::selection { color: #19a974; }
+.selection-light-green::-moz-selection { color: #9eebcf; }
+.selection-light-green::selection { color: #9eebcf; }
+.selection-navy::-moz-selection { color: #001b44; }
+.selection-navy::selection { color: #001b44; }
+.selection-dark-blue::-moz-selection { color: #00449e; }
+.selection-dark-blue::selection { color: #00449e; }
+.selection-blue::-moz-selection { color: #357edd; }
+.selection-blue::selection { color: #357edd; }
+.selection-light-blue::-moz-selection { color: #96ccff; }
+.selection-light-blue::selection { color: #96ccff; }
+.selection-lightest-blue::-moz-selection { color: #cdecff; }
+.selection-lightest-blue::selection { color: #cdecff; }
+.selection-washed-blue::-moz-selection { color: #f6fffe; }
+.selection-washed-blue::selection { color: #f6fffe; }
+.selection-washed-green::-moz-selection { color: #e8fdf5; }
+.selection-washed-green::selection { color: #e8fdf5; }
+.selection-washed-yellow::-moz-selection { color: #fffceb; }
+.selection-washed-yellow::selection { color: #fffceb; }
+.selection-washed-red::-moz-selection { color: #ffdfdf; }
+.selection-washed-red::selection { color: #ffdfdf; }
+.selection-material-light::-moz-selection { color: #ffcdd2; }
+.selection-material-light::selection { color: #ffcdd2; }
+.selection-material-red::-moz-selection { color: #f44336; }
+.selection-material-red::selection { color: #f44336; }
+.selection-material-dark-red::-moz-selection { color: #b71c1c; }
+.selection-material-dark-red::selection { color: #b71c1c; }
+.selection-material-light-pink::-moz-selection { color: #f8bbd0; }
+.selection-material-light-pink::selection { color: #f8bbd0; }
+.selection-material-pink::-moz-selection { color: #e91e63; }
+.selection-material-pink::selection { color: #e91e63; }
+.selection-material-dark-pink::-moz-selection { color: #880e4f; }
+.selection-material-dark-pink::selection { color: #880e4f; }
+.selection-material-deep-light-purple::-moz-selection { color: #d1c4e9; }
+.selection-material-deep-light-purple::selection { color: #d1c4e9; }
+.selection-material-deep-purple::-moz-selection { color: #673ab7; }
+.selection-material-deep-purple::selection { color: #673ab7; }
+.selection-material-deep-dark-purple::-moz-selection { color: #311b92; }
+.selection-material-deep-dark-purple::selection { color: #311b92; }
+.selection-material-indigo::-moz-selection { color: #3f51b5; }
+.selection-material-indigo::selection { color: #3f51b5; }
+.selection-material-dark-indigo::-moz-selection { color: #1a237e; }
+.selection-material-dark-indigo::selection { color: #1a237e; }
+.selection-material-light-indigo::-moz-selection { color: #c5cae9; }
+.selection-material-light-indigo::selection { color: #c5cae9; }
+.selection-material-blue::-moz-selection { color: #2196f3; }
+.selection-material-blue::selection { color: #2196f3; }
+.selection-material-dark-blue::-moz-selection { color: #0d47a1; }
+.selection-material-dark-blue::selection { color: #0d47a1; }
+.selection-material-light-blue::-moz-selection { color: #bbdefb; }
+.selection-material-light-blue::selection { color: #bbdefb; }
+.selection-teal::-moz-selection { color: #009688; }
+.selection-teal::selection { color: #009688; }
+.selection-dark-teal::-moz-selection { color: #004d40; }
+.selection-dark-teal::selection { color: #004d40; }
+.selection-light-teal::-moz-selection { color: #b2dfdb; }
+.selection-light-teal::selection { color: #b2dfdb; }
+.selection-material-green::-moz-selection { color: #4caf50; }
+.selection-material-green::selection { color: #4caf50; }
+.selection-material-dark-green::-moz-selection { color: #1b5e20; }
+.selection-material-dark-green::selection { color: #1b5e20; }
+.selection-material-light-green::-moz-selection { color: #c8e6c9; }
+.selection-material-light-green::selection { color: #c8e6c9; }
+.selection-lime::-moz-selection { color: #cddc39; }
+.selection-lime::selection { color: #cddc39; }
+.selection-dark-lime::-moz-selection { color: #827717; }
+.selection-dark-lime::selection { color: #827717; }
+.selection-light-lime::-moz-selection { color: #f0f4c3; }
+.selection-light-lime::selection { color: #f0f4c3; }
+.selection-amber::-moz-selection { color: #ffc107; }
+.selection-amber::selection { color: #ffc107; }
+.selection-dark-amber::-moz-selection { color: #ff6f00; }
+.selection-dark-amber::selection { color: #ff6f00; }
+.selection-light-amber::-moz-selection { color: #ffecb3; }
+.selection-light-amber::selection { color: #ffecb3; }
+.selection-material-orange::-moz-selection { color: #ff9800; }
+.selection-material-orange::selection { color: #ff9800; }
+.selection-material-dark-orange::-moz-selection { color: #e65100; }
+.selection-material-dark-orange::selection { color: #e65100; }
+.selection-material-light-orange::-moz-selection { color: #ffe0b2; }
+.selection-material-light-orange::selection { color: #ffe0b2; }
+.selection-brown::-moz-selection { color: #795548; }
+.selection-brown::selection { color: #795548; }
+.selection-dark-brown::-moz-selection { color: #3e2723; }
+.selection-dark-brown::selection { color: #3e2723; }
+.selection-light-brown::-moz-selection { color: #d7ccc8; }
+.selection-light-brown::selection { color: #d7ccc8; }
+.selection-blue-gray::-moz-selection { color: #607d8b; }
+.selection-blue-gray::selection { color: #607d8b; }
+.selection-dark-blue-gray::-moz-selection { color: #263238; }
+.selection-dark-blue-gray::selection { color: #263238; }
+.selection-light-blue-gray::-moz-selection { color: #cfd8dc; }
+.selection-light-blue-gray::selection { color: #cfd8dc; }
+.selection-pastel-dark-green::-moz-selection { color: #68c4af; }
+.selection-pastel-dark-green::selection { color: #68c4af; }
+.selection-pastel-green::-moz-selection { color: #96ead7; }
+.selection-pastel-green::selection { color: #96ead7; }
+.selection-pastel-light-green::-moz-selection { color: #b8dbd3; }
+.selection-pastel-light-green::selection { color: #b8dbd3; }
+.selection-pastel-light-red::-moz-selection { color: #ffbdbd; }
+.selection-pastel-light-red::selection { color: #ffbdbd; }
+.selection-pastel-lime::-moz-selection { color: #e1e9b7; }
+.selection-pastel-lime::selection { color: #e1e9b7; }
+.selection-pastel-yellow::-moz-selection { color: #ffffba; }
+.selection-pastel-yellow::selection { color: #ffffba; }
+.selection-pastel-orange::-moz-selection { color: #ffdfba; }
+.selection-pastel-orange::selection { color: #ffdfba; }
+.selection-pastel-red::-moz-selection { color: #f96161; }
+.selection-pastel-red::selection { color: #f96161; }
+.selection-pastel-light-brown::-moz-selection { color: #d0b783; }
+.selection-pastel-light-brown::selection { color: #d0b783; }
+.selection-pastel-light-blue::-moz-selection { color: #c9c9ff; }
+.selection-pastel-light-blue::selection { color: #c9c9ff; }
+/* Selection for background */
+.selection-bg-black::-moz-selection { background-color: #000; }
+.selection-bg-black::selection { background-color: #000; }
+.selection-bg-near-black::-moz-selection { background-color: #111; }
+.selection-bg-near-black::selection { background-color: #111; }
+.selection-bg-dark-gray::-moz-selection { background-color: #333; }
+.selection-bg-dark-gray::selection { background-color: #333; }
+.selection-bg-mid-gray::-moz-selection { background-color: #555; }
+.selection-bg-mid-gray::selection { background-color: #555; }
+.selection-bg-gray::-moz-selection { background-color: #777; }
+.selection-bg-gray::selection { background-color: #777; }
+.selection-bg-silver::-moz-selection { background-color: #999; }
+.selection-bg-silver::selection { background-color: #999; }
+.selection-bg-light-silver::-moz-selection { background-color: #aaa; }
+.selection-bg-light-silver::selection { background-color: #aaa; }
+.selection-bg-moon-gray::-moz-selection { background-color: #ccc; }
+.selection-bg-moon-gray::selection { background-color: #ccc; }
+.selection-bg-light-gray::-moz-selection { background-color: #eee; }
+.selection-bg-light-gray::selection { background-color: #eee; }
+.selection-bg-near-white::-moz-selection { background-color: #f4f4f4; }
+.selection-bg-near-white::selection { background-color: #f4f4f4; }
+.selection-bg-white::-moz-selection { background-color: #fff; }
+.selection-bg-white::selection { background-color: #fff; }
+.selection-bg-transparent::-moz-selection { background-color: transparent; }
+.selection-bg-transparent::selection { background-color: transparent; }
+.selection-bg-black-90::-moz-selection { background-color: rgba( 0, 0, 0, .9 ); }
+.selection-bg-black-90::selection { background-color: rgba( 0, 0, 0, .9 ); }
+.selection-bg-black-80::-moz-selection { background-color: rgba( 0, 0, 0, .8 ); }
+.selection-bg-black-80::selection { background-color: rgba( 0, 0, 0, .8 ); }
+.selection-bg-black-70::-moz-selection { background-color: rgba( 0, 0, 0, .7 ); }
+.selection-bg-black-70::selection { background-color: rgba( 0, 0, 0, .7 ); }
+.selection-bg-black-60::-moz-selection { background-color: rgba( 0, 0, 0, .6 ); }
+.selection-bg-black-60::selection { background-color: rgba( 0, 0, 0, .6 ); }
+.selection-bg-black-50::-moz-selection { background-color: rgba( 0, 0, 0, .5 ); }
+.selection-bg-black-50::selection { background-color: rgba( 0, 0, 0, .5 ); }
+.selection-bg-black-40::-moz-selection { background-color: rgba( 0, 0, 0, .4 ); }
+.selection-bg-black-40::selection { background-color: rgba( 0, 0, 0, .4 ); }
+.selection-bg-black-30::-moz-selection { background-color: rgba( 0, 0, 0, .3 ); }
+.selection-bg-black-30::selection { background-color: rgba( 0, 0, 0, .3 ); }
+.selection-bg-black-20::-moz-selection { background-color: rgba( 0, 0, 0, .2 ); }
+.selection-bg-black-20::selection { background-color: rgba( 0, 0, 0, .2 ); }
+.selection-bg-black-10::-moz-selection { background-color: rgba( 0, 0, 0, .1 ); }
+.selection-bg-black-10::selection { background-color: rgba( 0, 0, 0, .1 ); }
+.selection-bg-black-05::-moz-selection { background-color: rgba( 0, 0, 0, .05 ); }
+.selection-bg-black-05::selection { background-color: rgba( 0, 0, 0, .05 ); }
+.selection-bg-black-025::-moz-selection { background-color: rgba( 0, 0, 0, .025 ); }
+.selection-bg-black-025::selection { background-color: rgba( 0, 0, 0, .025 ); }
+.selection-bg-black-0125::-moz-selection { background-color: rgba( 0, 0, 0, .0125 ); }
+.selection-bg-black-0125::selection { background-color: rgba( 0, 0, 0, .0125 ); }
+.selection-bg-white-90::-moz-selection { background-color: rgba( 255, 255, 255, .9 ); }
+.selection-bg-white-90::selection { background-color: rgba( 255, 255, 255, .9 ); }
+.selection-bg-white-80::-moz-selection { background-color: rgba( 255, 255, 255, .8 ); }
+.selection-bg-white-80::selection { background-color: rgba( 255, 255, 255, .8 ); }
+.selection-bg-white-70::-moz-selection { background-color: rgba( 255, 255, 255, .7 ); }
+.selection-bg-white-70::selection { background-color: rgba( 255, 255, 255, .7 ); }
+.selection-bg-white-60::-moz-selection { background-color: rgba( 255, 255, 255, .6 ); }
+.selection-bg-white-60::selection { background-color: rgba( 255, 255, 255, .6 ); }
+.selection-bg-white-50::-moz-selection { background-color: rgba( 255, 255, 255, .5 ); }
+.selection-bg-white-50::selection { background-color: rgba( 255, 255, 255, .5 ); }
+.selection-bg-white-40::-moz-selection { background-color: rgba( 255, 255, 255, .4 ); }
+.selection-bg-white-40::selection { background-color: rgba( 255, 255, 255, .4 ); }
+.selection-bg-white-30::-moz-selection { background-color: rgba( 255, 255, 255, .3 ); }
+.selection-bg-white-30::selection { background-color: rgba( 255, 255, 255, .3 ); }
+.selection-bg-white-20::-moz-selection { background-color: rgba( 255, 255, 255, .2 ); }
+.selection-bg-white-20::selection { background-color: rgba( 255, 255, 255, .2 ); }
+.selection-bg-white-10::-moz-selection { background-color: rgba( 255, 255, 255, .1 ); }
+.selection-bg-white-10::selection { background-color: rgba( 255, 255, 255, .1 ); }
+.selection-bg-white-05::-moz-selection { background-color: rgba( 255, 255, 255, .05 ); }
+.selection-bg-white-05::selection { background-color: rgba( 255, 255, 255, .05 ); }
+.selection-bg-white-025::-moz-selection { background-color: rgba( 255, 255, 255, .025 ); }
+.selection-bg-white-025::selection { background-color: rgba( 255, 255, 255, .025 ); }
+.selection-bg-white-0125::-moz-selection { background-color: rgba( 255, 255, 255, .0125 ); }
+.selection-bg-white-0125::selection { background-color: rgba( 255, 255, 255, .0125 ); }
+.selection-bg-dark-red::-moz-selection { background-color: #e7040f; }
+.selection-bg-dark-red::selection { background-color: #e7040f; }
+.selection-bg-red::-moz-selection { background-color: #ff4136; }
+.selection-bg-red::selection { background-color: #ff4136; }
+.selection-bg-light-red::-moz-selection { background-color: #ff725c; }
+.selection-bg-light-red::selection { background-color: #ff725c; }
+.selection-bg-orange::-moz-selection { background-color: #ff6300; }
+.selection-bg-orange::selection { background-color: #ff6300; }
+.selection-bg-gold::-moz-selection { background-color: #ffb700; }
+.selection-bg-gold::selection { background-color: #ffb700; }
+.selection-bg-yellow::-moz-selection { background-color: #ffd700; }
+.selection-bg-yellow::selection { background-color: #ffd700; }
+.selection-bg-light-yellow::-moz-selection { background-color: #fbf1a9; }
+.selection-bg-light-yellow::selection { background-color: #fbf1a9; }
+.selection-bg-purple::-moz-selection { background-color: #5e2ca5; }
+.selection-bg-purple::selection { background-color: #5e2ca5; }
+.selection-bg-light-purple::-moz-selection { background-color: #a463f2; }
+.selection-bg-light-purple::selection { background-color: #a463f2; }
+.selection-bg-dark-pink::-moz-selection { background-color: #d5008f; }
+.selection-bg-dark-pink::selection { background-color: #d5008f; }
+.selection-bg-hot-pink::-moz-selection { background-color: #ff41b4; }
+.selection-bg-hot-pink::selection { background-color: #ff41b4; }
+.selection-bg-pink::-moz-selection { background-color: #ff80cc; }
+.selection-bg-pink::selection { background-color: #ff80cc; }
+.selection-bg-light-pink::-moz-selection { background-color: #ffa3d7; }
+.selection-bg-light-pink::selection { background-color: #ffa3d7; }
+.selection-bg-dark-green::-moz-selection { background-color: #137752; }
+.selection-bg-dark-green::selection { background-color: #137752; }
+.selection-bg-green::-moz-selection { background-color: #19a974; }
+.selection-bg-green::selection { background-color: #19a974; }
+.selection-bg-light-green::-moz-selection { background-color: #9eebcf; }
+.selection-bg-light-green::selection { background-color: #9eebcf; }
+.selection-bg-navy::-moz-selection { background-color: #001b44; }
+.selection-bg-navy::selection { background-color: #001b44; }
+.selection-bg-dark-blue::-moz-selection { background-color: #00449e; }
+.selection-bg-dark-blue::selection { background-color: #00449e; }
+.selection-bg-blue::-moz-selection { background-color: #357edd; }
+.selection-bg-blue::selection { background-color: #357edd; }
+.selection-bg-light-blue::-moz-selection { background-color: #96ccff; }
+.selection-bg-light-blue::selection { background-color: #96ccff; }
+.selection-bg-lightest-blue::-moz-selection { background-color: #cdecff; }
+.selection-bg-lightest-blue::selection { background-color: #cdecff; }
+.selection-bg-washed-blue::-moz-selection { background-color: #f6fffe; }
+.selection-bg-washed-blue::selection { background-color: #f6fffe; }
+.selection-bg-washed-green::-moz-selection { background-color: #e8fdf5; }
+.selection-bg-washed-green::selection { background-color: #e8fdf5; }
+.selection-bg-washed-yellow::-moz-selection { background-color: #fffceb; }
+.selection-bg-washed-yellow::selection { background-color: #fffceb; }
+.selection-bg-washed-red::-moz-selection { background-color: #ffdfdf; }
+.selection-bg-washed-red::selection { background-color: #ffdfdf; }
+.selection-bg-material-light::-moz-selection { background-color: #ffcdd2; }
+.selection-bg-material-light::selection { background-color: #ffcdd2; }
+.selection-bg-material-red::-moz-selection { background-color: #f44336; }
+.selection-bg-material-red::selection { background-color: #f44336; }
+.selection-bg-material-dark-red::-moz-selection { background-color: #b71c1c; }
+.selection-bg-material-dark-red::selection { background-color: #b71c1c; }
+.selection-bg-material-light-pink::-moz-selection { background-color: #f8bbd0; }
+.selection-bg-material-light-pink::selection { background-color: #f8bbd0; }
+.selection-bg-material-pink::-moz-selection { background-color: #e91e63; }
+.selection-bg-material-pink::selection { background-color: #e91e63; }
+.selection-bg-material-dark-pink::-moz-selection { background-color: #880e4f; }
+.selection-bg-material-dark-pink::selection { background-color: #880e4f; }
+.selection-bg-material-deep-light-purple::-moz-selection { background-color: #d1c4e9; }
+.selection-bg-material-deep-light-purple::selection { background-color: #d1c4e9; }
+.selection-bg-material-deep-purple::-moz-selection { background-color: #673ab7; }
+.selection-bg-material-deep-purple::selection { background-color: #673ab7; }
+.selection-bg-material-deep-dark-purple::-moz-selection { background-color: #311b92; }
+.selection-bg-material-deep-dark-purple::selection { background-color: #311b92; }
+.selection-bg-material-indigo::-moz-selection { background-color: #3f51b5; }
+.selection-bg-material-indigo::selection { background-color: #3f51b5; }
+.selection-bg-material-dark-indigo::-moz-selection { background-color: #1a237e; }
+.selection-bg-material-dark-indigo::selection { background-color: #1a237e; }
+.selection-bg-material-light-indigo::-moz-selection { background-color: #c5cae9; }
+.selection-bg-material-light-indigo::selection { background-color: #c5cae9; }
+.selection-bg-material-blue::-moz-selection { background-color: #2196f3; }
+.selection-bg-material-blue::selection { background-color: #2196f3; }
+.selection-bg-material-dark-blue::-moz-selection { background-color: #0d47a1; }
+.selection-bg-material-dark-blue::selection { background-color: #0d47a1; }
+.selection-bg-material-light-blue::-moz-selection { background-color: #bbdefb; }
+.selection-bg-material-light-blue::selection { background-color: #bbdefb; }
+.selection-bg-teal::-moz-selection { background-color: #009688; }
+.selection-bg-teal::selection { background-color: #009688; }
+.selection-bg-dark-teal::-moz-selection { background-color: #004d40; }
+.selection-bg-dark-teal::selection { background-color: #004d40; }
+.selection-bg-light-teal::-moz-selection { background-color: #b2dfdb; }
+.selection-bg-light-teal::selection { background-color: #b2dfdb; }
+.selection-bg-material-green::-moz-selection { background-color: #4caf50; }
+.selection-bg-material-green::selection { background-color: #4caf50; }
+.selection-bg-material-dark-green::-moz-selection { background-color: #1b5e20; }
+.selection-bg-material-dark-green::selection { background-color: #1b5e20; }
+.selection-bg-material-light-green::-moz-selection { background-color: #c8e6c9; }
+.selection-bg-material-light-green::selection { background-color: #c8e6c9; }
+.selection-bg-lime::-moz-selection { background-color: #cddc39; }
+.selection-bg-lime::selection { background-color: #cddc39; }
+.selection-bg-dark-lime::-moz-selection { background-color: #827717; }
+.selection-bg-dark-lime::selection { background-color: #827717; }
+.selection-bg-light-lime::-moz-selection { background-color: #f0f4c3; }
+.selection-bg-light-lime::selection { background-color: #f0f4c3; }
+.selection-bg-amber::-moz-selection { background-color: #ffc107; }
+.selection-bg-amber::selection { background-color: #ffc107; }
+.selection-bg-dark-amber::-moz-selection { background-color: #ff6f00; }
+.selection-bg-dark-amber::selection { background-color: #ff6f00; }
+.selection-bg-light-amber::-moz-selection { background-color: #ffecb3; }
+.selection-bg-light-amber::selection { background-color: #ffecb3; }
+.selection-bg-material-orange::-moz-selection { background-color: #ff9800; }
+.selection-bg-material-orange::selection { background-color: #ff9800; }
+.selection-bg-material-dark-orange::-moz-selection { background-color: #e65100; }
+.selection-bg-material-dark-orange::selection { background-color: #e65100; }
+.selection-bg-material-light-orange::-moz-selection { background-color: #ffe0b2; }
+.selection-bg-material-light-orange::selection { background-color: #ffe0b2; }
+.selection-bg-brown::-moz-selection { background-color: #795548; }
+.selection-bg-brown::selection { background-color: #795548; }
+.selection-bg-dark-brown::-moz-selection { background-color: #3e2723; }
+.selection-bg-dark-brown::selection { background-color: #3e2723; }
+.selection-bg-light-brown::-moz-selection { background-color: #d7ccc8; }
+.selection-bg-light-brown::selection { background-color: #d7ccc8; }
+.selection-bg-blue-gray::-moz-selection { background-color: #607d8b; }
+.selection-bg-blue-gray::selection { background-color: #607d8b; }
+.selection-bg-dark-blue-gray::-moz-selection { background-color: #263238; }
+.selection-bg-dark-blue-gray::selection { background-color: #263238; }
+.selection-bg-light-blue-gray::-moz-selection { background-color: #cfd8dc; }
+.selection-bg-light-blue-gray::selection { background-color: #cfd8dc; }
+.selection-bg-pastel-dark-green::-moz-selection { background-color: #68c4af; }
+.selection-bg-pastel-dark-green::selection { background-color: #68c4af; }
+.selection-bg-pastel-green::-moz-selection { background-color: #96ead7; }
+.selection-bg-pastel-green::selection { background-color: #96ead7; }
+.selection-bg-pastel-light-green::-moz-selection { background-color: #b8dbd3; }
+.selection-bg-pastel-light-green::selection { background-color: #b8dbd3; }
+.selection-bg-pastel-light-red::-moz-selection { background-color: #ffbdbd; }
+.selection-bg-pastel-light-red::selection { background-color: #ffbdbd; }
+.selection-bg-pastel-lime::-moz-selection { background-color: #e1e9b7; }
+.selection-bg-pastel-lime::selection { background-color: #e1e9b7; }
+.selection-bg-pastel-yellow::-moz-selection { background-color: #ffffba; }
+.selection-bg-pastel-yellow::selection { background-color: #ffffba; }
+.selection-bg-pastel-orange::-moz-selection { background-color: #ffdfba; }
+.selection-bg-pastel-orange::selection { background-color: #ffdfba; }
+.selection-bg-pastel-red::-moz-selection { background-color: #f96161; }
+.selection-bg-pastel-red::selection { background-color: #f96161; }
+.selection-bg-pastel-light-brown::-moz-selection { background-color: #d0b783; }
+.selection-bg-pastel-light-brown::selection { background-color: #d0b783; }
+.selection-bg-pastel-light-blue::-moz-selection { background-color: #c9c9ff; }
+.selection-bg-pastel-light-blue::selection { background-color: #c9c9ff; }
+.text-trunc-10 { overflow: hidden; white-space: nowrap; text-overflow: ellipsis; width: 10%; }
+.text-trunc-20 { overflow: hidden; white-space: nowrap; text-overflow: ellipsis; width: 20%; }
+.text-trunc-30 { overflow: hidden; white-space: nowrap; text-overflow: ellipsis; width: 30%; }
+.text-trunc-40 { overflow: hidden; white-space: nowrap; text-overflow: ellipsis; width: 40%; }
+.text-trunc-50 { overflow: hidden; white-space: nowrap; text-overflow: ellipsis; width: 50%; }
+.text-trunc-60 { overflow: hidden; white-space: nowrap; text-overflow: ellipsis; width: 60%; }
+.text-trunc-70 { overflow: hidden; white-space: nowrap; text-overflow: ellipsis; width: 70%; }
+.text-trunc-80 { overflow: hidden; white-space: nowrap; text-overflow: ellipsis; width: 80%; }
+.text-trunc-90 { overflow: hidden; white-space: nowrap; text-overflow: ellipsis; width: 90%; }
+.text-trunc-100 { overflow: hidden; white-space: nowrap; text-overflow: ellipsis; width: 100%; }
+ul.breadcrumb { padding: 10px 16px; list-style: none; background-color: #eee; }
+ul.breadcrumb li { display: inline; font-size: 18px; }
+ul.breadcrumb li + li:before { padding: 8px; color: black; content: '/\00a0'; }
+.progress-bar { text-align: center; line-height: 40px; color: transparent; }
+.loader { border: 16px solid #f3f3f3; /* Light grey */ border-top: 16px solid; /* Blue */ border-radius: 50%; min-width: 120px; min-height: 120px; animation: spin 2s linear infinite; }
+@keyframes spin {
+ 0% { transform: rotate( 0deg ); }
+ 100% { transform: rotate( 360deg ); }
+}
 /* Variables */
 /* Importing here will allow you to override any variables in the modules */
 /*
