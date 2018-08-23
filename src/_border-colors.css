@@ -200,8 +200,8 @@
 .b--washed-red {
   border-color: var(--washed-red);
 }
-.b--material-light {
-  border-color: var(--material-light);
+.b--material-light-red {
+  border-color: var(--material-light-red);
 }
 .b--material-red {
   border-color: var(--material-red);

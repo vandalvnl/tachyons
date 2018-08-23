@@ -1,10 +1,10 @@
-/* 
-  
+/*
+
    SKINS:PSEUDO
 
    Customize the color of an element when
    it is focused or hovered over.
- 
+
  */
 .hover-black:hover,
 .hover-black:focus {
@@ -250,9 +250,9 @@
 .hover-washed-red:focus {
   color: var(--washed-red);
 }
-.hover-material-light:hover,
-.hover-material-light:focus {
-  color: var(--material-light);
+.hover-material-light-red:hover,
+.hover-material-light-red:focus {
+  color: var(--material-light-red);
 }
 .hover-material-red:hover,
 .hover-material-red:focus {

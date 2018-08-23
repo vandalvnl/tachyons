@@ -15,21 +15,46 @@
 .underline    { text-decoration: underline; }
 .no-underline { text-decoration: none; }
 
+.paragraph-0 { text-indent: 0em; }
+.paragraph-1 { text-indent: 1em; }
+.paragraph-2 { text-indent: 2em; }
+.paragraph-3 { text-indent: 3em; }
+.paragraph-4 { text-indent: 4em; }
+.paragraph-5 { text-indent: 5em; }
+
 
 @media (--breakpoint-not-small) {
   .strike-ns       { text-decoration: line-through; }
   .underline-ns    { text-decoration: underline; }
   .no-underline-ns { text-decoration: none; }
+  .paragraph-0-ns { text-indent: 0em; }
+  .paragraph-1-ns { text-indent: 1em; }
+  .paragraph-2-ns { text-indent: 2em; }
+  .paragraph-3-ns { text-indent: 3em; }
+  .paragraph-4-ns { text-indent: 4em; }
+  .paragraph-5-ns { text-indent: 5em; }
 }
 
 @media (--breakpoint-medium) {
   .strike-m       { text-decoration: line-through; }
   .underline-m    { text-decoration: underline; }
   .no-underline-m { text-decoration: none; }
+  .paragraph-0-m { text-indent: 0em; }
+  .paragraph-1-m { text-indent: 1em; }
+  .paragraph-2-m { text-indent: 2em; }
+  .paragraph-3-m { text-indent: 3em; }
+  .paragraph-4-m { text-indent: 4em; }
+  .paragraph-5-m { text-indent: 5em; }
 }
 
 @media (--breakpoint-large) {
   .strike-l       { text-decoration: line-through; }
   .underline-l {    text-decoration: underline; }
   .no-underline-l { text-decoration: none; }
+  .paragraph-0-l { text-indent: 0em; }
+  .paragraph-1-l { text-indent: 1em; }
+  .paragraph-2-l { text-indent: 2em; }
+  .paragraph-3-l { text-indent: 3em; }
+  .paragraph-4-l { text-indent: 4em; }
+  .paragraph-5-l { text-indent: 5em; }
 }
