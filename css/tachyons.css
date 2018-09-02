@@ -2828,119 +2828,458 @@ code, .code { font-family: Consolas, monaco, monospace; }
 .selection-bg-pastel-light-brown::selection { background-color: #d0b783; }
 .selection-bg-pastel-light-blue::-moz-selection { background-color: #c9c9ff; }
 .selection-bg-pastel-light-blue::selection { background-color: #c9c9ff; }
-.placeholder-black { color: #000; }
-.placeholder-near-black { color: #111; }
-.placeholder-dark-gray { color: #333; }
-.placeholder-mid-gray { color: #555; }
-.placeholder-gray { color: #777; }
-.placeholder-silver { color: #999; }
-.placeholder-light-silver { color: #aaa; }
-.placeholder-moon-gray { color: #ccc; }
-.placeholder-light-gray { color: #eee; }
-.placeholder-near-white { color: #f4f4f4; }
-.placeholder-white { color: #fff; }
-.placeholder-transparent { color: transparent; }
-.placeholder-black-90 { color: rgba( 0, 0, 0, .9 ); }
-.placeholder-black-80 { color: rgba( 0, 0, 0, .8 ); }
-.placeholder-black-70 { color: rgba( 0, 0, 0, .7 ); }
-.placeholder-black-60 { color: rgba( 0, 0, 0, .6 ); }
-.placeholder-black-50 { color: rgba( 0, 0, 0, .5 ); }
-.placeholder-black-40 { color: rgba( 0, 0, 0, .4 ); }
-.placeholder-black-30 { color: rgba( 0, 0, 0, .3 ); }
-.placeholder-black-20 { color: rgba( 0, 0, 0, .2 ); }
-.placeholder-black-10 { color: rgba( 0, 0, 0, .1 ); }
-.placeholder-black-05 { color: rgba( 0, 0, 0, .05 ); }
-.placeholder-black-025 { color: rgba( 0, 0, 0, .025 ); }
-.placeholder-black-0125 { color: rgba( 0, 0, 0, .0125 ); }
-.placeholder-white-90 { color: rgba( 255, 255, 255, .9 ); }
-.placeholder-white-80 { color: rgba( 255, 255, 255, .8 ); }
-.placeholder-white-70 { color: rgba( 255, 255, 255, .7 ); }
-.placeholder-white-60 { color: rgba( 255, 255, 255, .6 ); }
-.placeholder-white-50 { color: rgba( 255, 255, 255, .5 ); }
-.placeholder-white-40 { color: rgba( 255, 255, 255, .4 ); }
-.placeholder-white-30 { color: rgba( 255, 255, 255, .3 ); }
-.placeholder-white-20 { color: rgba( 255, 255, 255, .2 ); }
-.placeholder-white-10 { color: rgba( 255, 255, 255, .1 ); }
-.placeholder-white-05 { color: rgba( 255, 255, 255, .05 ); }
-.placeholder-white-025 { color: rgba( 255, 255, 255, .025 ); }
-.placeholder-white-0125 { color: rgba( 255, 255, 255, .0125 ); }
-.placeholder-dark-red { color: #e7040f; }
-.placeholder-red { color: #ff4136; }
-.placeholder-light-red { color: #ff725c; }
-.placeholder-orange { color: #ff6300; }
-.placeholder-gold { color: #ffb700; }
-.placeholder-yellow { color: #ffd700; }
-.placeholder-light-yellow { color: #fbf1a9; }
-.placeholder-purple { color: #5e2ca5; }
-.placeholder-light-purple { color: #a463f2; }
-.placeholder-dark-pink { color: #d5008f; }
-.placeholder-hot-pink { color: #ff41b4; }
-.placeholder-pink { color: #ff80cc; }
-.placeholder-light-pink { color: #ffa3d7; }
-.placeholder-dark-green { color: #137752; }
-.placeholder-green { color: #19a974; }
-.placeholder-light-green { color: #9eebcf; }
-.placeholder-navy { color: #001b44; }
-.placeholder-dark-blue { color: #00449e; }
-.placeholder-blue { color: #357edd; }
-.placeholder-light-blue { color: #96ccff; }
-.placeholder-lightest-blue { color: #cdecff; }
-.placeholder-washed-blue { color: #f6fffe; }
-.placeholder-washed-green { color: #e8fdf5; }
-.placeholder-washed-yellow { color: #fffceb; }
-.placeholder-washed-red { color: #ffdfdf; }
-.placeholder-material-light-red { color: #ffcdd2; }
-.placeholder-material-red { color: #f44336; }
-.placeholder-material-dark-red { color: #b71c1c; }
-.placeholder-material-light-pink { color: #f8bbd0; }
-.placeholder-material-pink { color: #e91e63; }
-.placeholder-material-dark-pink { color: #880e4f; }
-.placeholder-material-deep-light-purple { color: #d1c4e9; }
-.placeholder-material-deep-purple { color: #673ab7; }
-.placeholder-material-deep-dark-purple { color: #311b92; }
-.placeholder-material-indigo { color: #3f51b5; }
-.placeholder-material-dark-indigo { color: #1a237e; }
-.placeholder-material-light-indigo { color: #c5cae9; }
-.placeholder-material-blue { color: #2196f3; }
-.placeholder-material-dark-blue { color: #0d47a1; }
-.placeholder-material-light-blue { color: #bbdefb; }
-.placeholder-teal { color: #009688; }
-.placeholder-dark-teal { color: #004d40; }
-.placeholder-light-teal { color: #b2dfdb; }
-.placeholder-material-green { color: #4caf50; }
-.placeholder-material-dark-green { color: #1b5e20; }
-.placeholder-material-light-green { color: #c8e6c9; }
-.placeholder-lime { color: #cddc39; }
-.placeholder-dark-lime { color: #827717; }
-.placeholder-light-lime { color: #f0f4c3; }
-.placeholder-amber { color: #ffc107; }
-.placeholder-dark-amber { color: #ff6f00; }
-.placeholder-light-amber { color: #ffecb3; }
-.placeholder-material-orange { color: #ff9800; }
-.placeholder-material-dark-orange { color: #e65100; }
-.placeholder-material-light-orange { color: #ffe0b2; }
-.placeholder-brown { color: #795548; }
-.placeholder-dark-brown { color: #3e2723; }
-.placeholder-light-brown { color: #d7ccc8; }
-.placeholder-blue-gray { color: #607d8b; }
-.placeholder-dark-blue-gray { color: #263238; }
-.placeholder-light-blue-gray { color: #cfd8dc; }
-.placeholder-pastel-dark-green { color: #68c4af; }
-.placeholder-pastel-green { color: #96ead7; }
-.placeholder-pastel-light-green { color: #b8dbd3; }
-.placeholder-pastel-light-red { color: #ffbdbd; }
-.placeholder-pastel-lime { color: #e1e9b7; }
-.placeholder-pastel-yellow { color: #ffffba; }
-.placeholder-pastel-orange { color: #ffdfba; }
-.placeholder-pastel-red { color: #f96161; }
-.placeholder-pastel-light-brown { color: #d0b783; }
-.placeholder-pastel-light-blue { color: #c9c9ff; }
-.placeholder-material-yellow { color: #ffeb3b; }
-.placeholder-material-dark-yellow { color: #fbc02d; }
-.placeholder-material-light-yellow { color: #fff59d; }
-.placeholder-material-cyan { color: #00bcd4; }
-.placeholder-material-dark-cyan { color: #00838f; }
-.placeholder-material-light-cyan { color: #b2ebf2; }
+.placeholder-black::-webkit-input-placeholder { color: #000; }
+.placeholder-black:-ms-input-placeholder { color: #000; }
+.placeholder-black::-ms-input-placeholder { color: #000; }
+.placeholder-black::placeholder { color: #000; }
+.placeholder-near-black::-webkit-input-placeholder { color: #111; }
+.placeholder-near-black:-ms-input-placeholder { color: #111; }
+.placeholder-near-black::-ms-input-placeholder { color: #111; }
+.placeholder-near-black::placeholder { color: #111; }
+.placeholder-dark-gray::-webkit-input-placeholder { color: #333; }
+.placeholder-dark-gray:-ms-input-placeholder { color: #333; }
+.placeholder-dark-gray::-ms-input-placeholder { color: #333; }
+.placeholder-dark-gray::placeholder { color: #333; }
+.placeholder-mid-gray::-webkit-input-placeholder { color: #555; }
+.placeholder-mid-gray:-ms-input-placeholder { color: #555; }
+.placeholder-mid-gray::-ms-input-placeholder { color: #555; }
+.placeholder-mid-gray::placeholder { color: #555; }
+.placeholder-gray::-webkit-input-placeholder { color: #777; }
+.placeholder-gray:-ms-input-placeholder { color: #777; }
+.placeholder-gray::-ms-input-placeholder { color: #777; }
+.placeholder-gray::placeholder { color: #777; }
+.placeholder-silver::-webkit-input-placeholder { color: #999; }
+.placeholder-silver:-ms-input-placeholder { color: #999; }
+.placeholder-silver::-ms-input-placeholder { color: #999; }
+.placeholder-silver::placeholder { color: #999; }
+.placeholder-light-silver::-webkit-input-placeholder { color: #aaa; }
+.placeholder-light-silver:-ms-input-placeholder { color: #aaa; }
+.placeholder-light-silver::-ms-input-placeholder { color: #aaa; }
+.placeholder-light-silver::placeholder { color: #aaa; }
+.placeholder-moon-gray::-webkit-input-placeholder { color: #ccc; }
+.placeholder-moon-gray:-ms-input-placeholder { color: #ccc; }
+.placeholder-moon-gray::-ms-input-placeholder { color: #ccc; }
+.placeholder-moon-gray::placeholder { color: #ccc; }
+.placeholder-light-gray::-webkit-input-placeholder { color: #eee; }
+.placeholder-light-gray:-ms-input-placeholder { color: #eee; }
+.placeholder-light-gray::-ms-input-placeholder { color: #eee; }
+.placeholder-light-gray::placeholder { color: #eee; }
+.placeholder-near-white::-webkit-input-placeholder { color: #f4f4f4; }
+.placeholder-near-white:-ms-input-placeholder { color: #f4f4f4; }
+.placeholder-near-white::-ms-input-placeholder { color: #f4f4f4; }
+.placeholder-near-white::placeholder { color: #f4f4f4; }
+.placeholder-white::-webkit-input-placeholder { color: #fff; }
+.placeholder-white:-ms-input-placeholder { color: #fff; }
+.placeholder-white::-ms-input-placeholder { color: #fff; }
+.placeholder-white::placeholder { color: #fff; }
+.placeholder-transparent::-webkit-input-placeholder { color: transparent; }
+.placeholder-transparent:-ms-input-placeholder { color: transparent; }
+.placeholder-transparent::-ms-input-placeholder { color: transparent; }
+.placeholder-transparent::placeholder { color: transparent; }
+.placeholder-black-90::-webkit-input-placeholder { color: rgba( 0, 0, 0, .9 ); }
+.placeholder-black-90:-ms-input-placeholder { color: rgba( 0, 0, 0, .9 ); }
+.placeholder-black-90::-ms-input-placeholder { color: rgba( 0, 0, 0, .9 ); }
+.placeholder-black-90::placeholder { color: rgba( 0, 0, 0, .9 ); }
+.placeholder-black-80::-webkit-input-placeholder { color: rgba( 0, 0, 0, .8 ); }
+.placeholder-black-80:-ms-input-placeholder { color: rgba( 0, 0, 0, .8 ); }
+.placeholder-black-80::-ms-input-placeholder { color: rgba( 0, 0, 0, .8 ); }
+.placeholder-black-80::placeholder { color: rgba( 0, 0, 0, .8 ); }
+.placeholder-black-70::-webkit-input-placeholder { color: rgba( 0, 0, 0, .7 ); }
+.placeholder-black-70:-ms-input-placeholder { color: rgba( 0, 0, 0, .7 ); }
+.placeholder-black-70::-ms-input-placeholder { color: rgba( 0, 0, 0, .7 ); }
+.placeholder-black-70::placeholder { color: rgba( 0, 0, 0, .7 ); }
+.placeholder-black-60::-webkit-input-placeholder { color: rgba( 0, 0, 0, .6 ); }
+.placeholder-black-60:-ms-input-placeholder { color: rgba( 0, 0, 0, .6 ); }
+.placeholder-black-60::-ms-input-placeholder { color: rgba( 0, 0, 0, .6 ); }
+.placeholder-black-60::placeholder { color: rgba( 0, 0, 0, .6 ); }
+.placeholder-black-50::-webkit-input-placeholder { color: rgba( 0, 0, 0, .5 ); }
+.placeholder-black-50:-ms-input-placeholder { color: rgba( 0, 0, 0, .5 ); }
+.placeholder-black-50::-ms-input-placeholder { color: rgba( 0, 0, 0, .5 ); }
+.placeholder-black-50::placeholder { color: rgba( 0, 0, 0, .5 ); }
+.placeholder-black-40::-webkit-input-placeholder { color: rgba( 0, 0, 0, .4 ); }
+.placeholder-black-40:-ms-input-placeholder { color: rgba( 0, 0, 0, .4 ); }
+.placeholder-black-40::-ms-input-placeholder { color: rgba( 0, 0, 0, .4 ); }
+.placeholder-black-40::placeholder { color: rgba( 0, 0, 0, .4 ); }
+.placeholder-black-30::-webkit-input-placeholder { color: rgba( 0, 0, 0, .3 ); }
+.placeholder-black-30:-ms-input-placeholder { color: rgba( 0, 0, 0, .3 ); }
+.placeholder-black-30::-ms-input-placeholder { color: rgba( 0, 0, 0, .3 ); }
+.placeholder-black-30::placeholder { color: rgba( 0, 0, 0, .3 ); }
+.placeholder-black-20::-webkit-input-placeholder { color: rgba( 0, 0, 0, .2 ); }
+.placeholder-black-20:-ms-input-placeholder { color: rgba( 0, 0, 0, .2 ); }
+.placeholder-black-20::-ms-input-placeholder { color: rgba( 0, 0, 0, .2 ); }
+.placeholder-black-20::placeholder { color: rgba( 0, 0, 0, .2 ); }
+.placeholder-black-10::-webkit-input-placeholder { color: rgba( 0, 0, 0, .1 ); }
+.placeholder-black-10:-ms-input-placeholder { color: rgba( 0, 0, 0, .1 ); }
+.placeholder-black-10::-ms-input-placeholder { color: rgba( 0, 0, 0, .1 ); }
+.placeholder-black-10::placeholder { color: rgba( 0, 0, 0, .1 ); }
+.placeholder-black-05::-webkit-input-placeholder { color: rgba( 0, 0, 0, .05 ); }
+.placeholder-black-05:-ms-input-placeholder { color: rgba( 0, 0, 0, .05 ); }
+.placeholder-black-05::-ms-input-placeholder { color: rgba( 0, 0, 0, .05 ); }
+.placeholder-black-05::placeholder { color: rgba( 0, 0, 0, .05 ); }
+.placeholder-black-025::-webkit-input-placeholder { color: rgba( 0, 0, 0, .025 ); }
+.placeholder-black-025:-ms-input-placeholder { color: rgba( 0, 0, 0, .025 ); }
+.placeholder-black-025::-ms-input-placeholder { color: rgba( 0, 0, 0, .025 ); }
+.placeholder-black-025::placeholder { color: rgba( 0, 0, 0, .025 ); }
+.placeholder-black-0125::-webkit-input-placeholder { color: rgba( 0, 0, 0, .0125 ); }
+.placeholder-black-0125:-ms-input-placeholder { color: rgba( 0, 0, 0, .0125 ); }
+.placeholder-black-0125::-ms-input-placeholder { color: rgba( 0, 0, 0, .0125 ); }
+.placeholder-black-0125::placeholder { color: rgba( 0, 0, 0, .0125 ); }
+.placeholder-white-90::-webkit-input-placeholder { color: rgba( 255, 255, 255, .9 ); }
+.placeholder-white-90:-ms-input-placeholder { color: rgba( 255, 255, 255, .9 ); }
+.placeholder-white-90::-ms-input-placeholder { color: rgba( 255, 255, 255, .9 ); }
+.placeholder-white-90::placeholder { color: rgba( 255, 255, 255, .9 ); }
+.placeholder-white-80::-webkit-input-placeholder { color: rgba( 255, 255, 255, .8 ); }
+.placeholder-white-80:-ms-input-placeholder { color: rgba( 255, 255, 255, .8 ); }
+.placeholder-white-80::-ms-input-placeholder { color: rgba( 255, 255, 255, .8 ); }
+.placeholder-white-80::placeholder { color: rgba( 255, 255, 255, .8 ); }
+.placeholder-white-70::-webkit-input-placeholder { color: rgba( 255, 255, 255, .7 ); }
+.placeholder-white-70:-ms-input-placeholder { color: rgba( 255, 255, 255, .7 ); }
+.placeholder-white-70::-ms-input-placeholder { color: rgba( 255, 255, 255, .7 ); }
+.placeholder-white-70::placeholder { color: rgba( 255, 255, 255, .7 ); }
+.placeholder-white-60::-webkit-input-placeholder { color: rgba( 255, 255, 255, .6 ); }
+.placeholder-white-60:-ms-input-placeholder { color: rgba( 255, 255, 255, .6 ); }
+.placeholder-white-60::-ms-input-placeholder { color: rgba( 255, 255, 255, .6 ); }
+.placeholder-white-60::placeholder { color: rgba( 255, 255, 255, .6 ); }
+.placeholder-white-50::-webkit-input-placeholder { color: rgba( 255, 255, 255, .5 ); }
+.placeholder-white-50:-ms-input-placeholder { color: rgba( 255, 255, 255, .5 ); }
+.placeholder-white-50::-ms-input-placeholder { color: rgba( 255, 255, 255, .5 ); }
+.placeholder-white-50::placeholder { color: rgba( 255, 255, 255, .5 ); }
+.placeholder-white-40::-webkit-input-placeholder { color: rgba( 255, 255, 255, .4 ); }
+.placeholder-white-40:-ms-input-placeholder { color: rgba( 255, 255, 255, .4 ); }
+.placeholder-white-40::-ms-input-placeholder { color: rgba( 255, 255, 255, .4 ); }
+.placeholder-white-40::placeholder { color: rgba( 255, 255, 255, .4 ); }
+.placeholder-white-30::-webkit-input-placeholder { color: rgba( 255, 255, 255, .3 ); }
+.placeholder-white-30:-ms-input-placeholder { color: rgba( 255, 255, 255, .3 ); }
+.placeholder-white-30::-ms-input-placeholder { color: rgba( 255, 255, 255, .3 ); }
+.placeholder-white-30::placeholder { color: rgba( 255, 255, 255, .3 ); }
+.placeholder-white-20::-webkit-input-placeholder { color: rgba( 255, 255, 255, .2 ); }
+.placeholder-white-20:-ms-input-placeholder { color: rgba( 255, 255, 255, .2 ); }
+.placeholder-white-20::-ms-input-placeholder { color: rgba( 255, 255, 255, .2 ); }
+.placeholder-white-20::placeholder { color: rgba( 255, 255, 255, .2 ); }
+.placeholder-white-10::-webkit-input-placeholder { color: rgba( 255, 255, 255, .1 ); }
+.placeholder-white-10:-ms-input-placeholder { color: rgba( 255, 255, 255, .1 ); }
+.placeholder-white-10::-ms-input-placeholder { color: rgba( 255, 255, 255, .1 ); }
+.placeholder-white-10::placeholder { color: rgba( 255, 255, 255, .1 ); }
+.placeholder-white-05::-webkit-input-placeholder { color: rgba( 255, 255, 255, .05 ); }
+.placeholder-white-05:-ms-input-placeholder { color: rgba( 255, 255, 255, .05 ); }
+.placeholder-white-05::-ms-input-placeholder { color: rgba( 255, 255, 255, .05 ); }
+.placeholder-white-05::placeholder { color: rgba( 255, 255, 255, .05 ); }
+.placeholder-white-025::-webkit-input-placeholder { color: rgba( 255, 255, 255, .025 ); }
+.placeholder-white-025:-ms-input-placeholder { color: rgba( 255, 255, 255, .025 ); }
+.placeholder-white-025::-ms-input-placeholder { color: rgba( 255, 255, 255, .025 ); }
+.placeholder-white-025::placeholder { color: rgba( 255, 255, 255, .025 ); }
+.placeholder-white-0125::-webkit-input-placeholder { color: rgba( 255, 255, 255, .0125 ); }
+.placeholder-white-0125:-ms-input-placeholder { color: rgba( 255, 255, 255, .0125 ); }
+.placeholder-white-0125::-ms-input-placeholder { color: rgba( 255, 255, 255, .0125 ); }
+.placeholder-white-0125::placeholder { color: rgba( 255, 255, 255, .0125 ); }
+.placeholder-dark-red::-webkit-input-placeholder { color: #e7040f; }
+.placeholder-dark-red:-ms-input-placeholder { color: #e7040f; }
+.placeholder-dark-red::-ms-input-placeholder { color: #e7040f; }
+.placeholder-dark-red::placeholder { color: #e7040f; }
+.placeholder-red::-webkit-input-placeholder { color: #ff4136; }
+.placeholder-red:-ms-input-placeholder { color: #ff4136; }
+.placeholder-red::-ms-input-placeholder { color: #ff4136; }
+.placeholder-red::placeholder { color: #ff4136; }
+.placeholder-light-red::-webkit-input-placeholder { color: #ff725c; }
+.placeholder-light-red:-ms-input-placeholder { color: #ff725c; }
+.placeholder-light-red::-ms-input-placeholder { color: #ff725c; }
+.placeholder-light-red::placeholder { color: #ff725c; }
+.placeholder-orange::-webkit-input-placeholder { color: #ff6300; }
+.placeholder-orange:-ms-input-placeholder { color: #ff6300; }
+.placeholder-orange::-ms-input-placeholder { color: #ff6300; }
+.placeholder-orange::placeholder { color: #ff6300; }
+.placeholder-gold::-webkit-input-placeholder { color: #ffb700; }
+.placeholder-gold:-ms-input-placeholder { color: #ffb700; }
+.placeholder-gold::-ms-input-placeholder { color: #ffb700; }
+.placeholder-gold::placeholder { color: #ffb700; }
+.placeholder-yellow::-webkit-input-placeholder { color: #ffd700; }
+.placeholder-yellow:-ms-input-placeholder { color: #ffd700; }
+.placeholder-yellow::-ms-input-placeholder { color: #ffd700; }
+.placeholder-yellow::placeholder { color: #ffd700; }
+.placeholder-light-yellow::-webkit-input-placeholder { color: #fbf1a9; }
+.placeholder-light-yellow:-ms-input-placeholder { color: #fbf1a9; }
+.placeholder-light-yellow::-ms-input-placeholder { color: #fbf1a9; }
+.placeholder-light-yellow::placeholder { color: #fbf1a9; }
+.placeholder-purple::-webkit-input-placeholder { color: #5e2ca5; }
+.placeholder-purple:-ms-input-placeholder { color: #5e2ca5; }
+.placeholder-purple::-ms-input-placeholder { color: #5e2ca5; }
+.placeholder-purple::placeholder { color: #5e2ca5; }
+.placeholder-light-purple::-webkit-input-placeholder { color: #a463f2; }
+.placeholder-light-purple:-ms-input-placeholder { color: #a463f2; }
+.placeholder-light-purple::-ms-input-placeholder { color: #a463f2; }
+.placeholder-light-purple::placeholder { color: #a463f2; }
+.placeholder-dark-pink::-webkit-input-placeholder { color: #d5008f; }
+.placeholder-dark-pink:-ms-input-placeholder { color: #d5008f; }
+.placeholder-dark-pink::-ms-input-placeholder { color: #d5008f; }
+.placeholder-dark-pink::placeholder { color: #d5008f; }
+.placeholder-hot-pink::-webkit-input-placeholder { color: #ff41b4; }
+.placeholder-hot-pink:-ms-input-placeholder { color: #ff41b4; }
+.placeholder-hot-pink::-ms-input-placeholder { color: #ff41b4; }
+.placeholder-hot-pink::placeholder { color: #ff41b4; }
+.placeholder-pink::-webkit-input-placeholder { color: #ff80cc; }
+.placeholder-pink:-ms-input-placeholder { color: #ff80cc; }
+.placeholder-pink::-ms-input-placeholder { color: #ff80cc; }
+.placeholder-pink::placeholder { color: #ff80cc; }
+.placeholder-light-pink::-webkit-input-placeholder { color: #ffa3d7; }
+.placeholder-light-pink:-ms-input-placeholder { color: #ffa3d7; }
+.placeholder-light-pink::-ms-input-placeholder { color: #ffa3d7; }
+.placeholder-light-pink::placeholder { color: #ffa3d7; }
+.placeholder-dark-green::-webkit-input-placeholder { color: #137752; }
+.placeholder-dark-green:-ms-input-placeholder { color: #137752; }
+.placeholder-dark-green::-ms-input-placeholder { color: #137752; }
+.placeholder-dark-green::placeholder { color: #137752; }
+.placeholder-green::-webkit-input-placeholder { color: #19a974; }
+.placeholder-green:-ms-input-placeholder { color: #19a974; }
+.placeholder-green::-ms-input-placeholder { color: #19a974; }
+.placeholder-green::placeholder { color: #19a974; }
+.placeholder-light-green::-webkit-input-placeholder { color: #9eebcf; }
+.placeholder-light-green:-ms-input-placeholder { color: #9eebcf; }
+.placeholder-light-green::-ms-input-placeholder { color: #9eebcf; }
+.placeholder-light-green::placeholder { color: #9eebcf; }
+.placeholder-navy::-webkit-input-placeholder { color: #001b44; }
+.placeholder-navy:-ms-input-placeholder { color: #001b44; }
+.placeholder-navy::-ms-input-placeholder { color: #001b44; }
+.placeholder-navy::placeholder { color: #001b44; }
+.placeholder-dark-blue::-webkit-input-placeholder { color: #00449e; }
+.placeholder-dark-blue:-ms-input-placeholder { color: #00449e; }
+.placeholder-dark-blue::-ms-input-placeholder { color: #00449e; }
+.placeholder-dark-blue::placeholder { color: #00449e; }
+.placeholder-blue::-webkit-input-placeholder { color: #357edd; }
+.placeholder-blue:-ms-input-placeholder { color: #357edd; }
+.placeholder-blue::-ms-input-placeholder { color: #357edd; }
+.placeholder-blue::placeholder { color: #357edd; }
+.placeholder-light-blue::-webkit-input-placeholder { color: #96ccff; }
+.placeholder-light-blue:-ms-input-placeholder { color: #96ccff; }
+.placeholder-light-blue::-ms-input-placeholder { color: #96ccff; }
+.placeholder-light-blue::placeholder { color: #96ccff; }
+.placeholder-lightest-blue::-webkit-input-placeholder { color: #cdecff; }
+.placeholder-lightest-blue:-ms-input-placeholder { color: #cdecff; }
+.placeholder-lightest-blue::-ms-input-placeholder { color: #cdecff; }
+.placeholder-lightest-blue::placeholder { color: #cdecff; }
+.placeholder-washed-blue::-webkit-input-placeholder { color: #f6fffe; }
+.placeholder-washed-blue:-ms-input-placeholder { color: #f6fffe; }
+.placeholder-washed-blue::-ms-input-placeholder { color: #f6fffe; }
+.placeholder-washed-blue::placeholder { color: #f6fffe; }
+.placeholder-washed-green::-webkit-input-placeholder { color: #e8fdf5; }
+.placeholder-washed-green:-ms-input-placeholder { color: #e8fdf5; }
+.placeholder-washed-green::-ms-input-placeholder { color: #e8fdf5; }
+.placeholder-washed-green::placeholder { color: #e8fdf5; }
+.placeholder-washed-yellow::-webkit-input-placeholder { color: #fffceb; }
+.placeholder-washed-yellow:-ms-input-placeholder { color: #fffceb; }
+.placeholder-washed-yellow::-ms-input-placeholder { color: #fffceb; }
+.placeholder-washed-yellow::placeholder { color: #fffceb; }
+.placeholder-washed-red::-webkit-input-placeholder { color: #ffdfdf; }
+.placeholder-washed-red:-ms-input-placeholder { color: #ffdfdf; }
+.placeholder-washed-red::-ms-input-placeholder { color: #ffdfdf; }
+.placeholder-washed-red::placeholder { color: #ffdfdf; }
+.placeholder-material-light-red::-webkit-input-placeholder { color: #ffcdd2; }
+.placeholder-material-light-red:-ms-input-placeholder { color: #ffcdd2; }
+.placeholder-material-light-red::-ms-input-placeholder { color: #ffcdd2; }
+.placeholder-material-light-red::placeholder { color: #ffcdd2; }
+.placeholder-material-red::-webkit-input-placeholder { color: #f44336; }
+.placeholder-material-red:-ms-input-placeholder { color: #f44336; }
+.placeholder-material-red::-ms-input-placeholder { color: #f44336; }
+.placeholder-material-red::placeholder { color: #f44336; }
+.placeholder-material-dark-red::-webkit-input-placeholder { color: #b71c1c; }
+.placeholder-material-dark-red:-ms-input-placeholder { color: #b71c1c; }
+.placeholder-material-dark-red::-ms-input-placeholder { color: #b71c1c; }
+.placeholder-material-dark-red::placeholder { color: #b71c1c; }
+.placeholder-material-light-pink::-webkit-input-placeholder { color: #f8bbd0; }
+.placeholder-material-light-pink:-ms-input-placeholder { color: #f8bbd0; }
+.placeholder-material-light-pink::-ms-input-placeholder { color: #f8bbd0; }
+.placeholder-material-light-pink::placeholder { color: #f8bbd0; }
+.placeholder-material-pink::-webkit-input-placeholder { color: #e91e63; }
+.placeholder-material-pink:-ms-input-placeholder { color: #e91e63; }
+.placeholder-material-pink::-ms-input-placeholder { color: #e91e63; }
+.placeholder-material-pink::placeholder { color: #e91e63; }
+.placeholder-material-dark-pink::-webkit-input-placeholder { color: #880e4f; }
+.placeholder-material-dark-pink:-ms-input-placeholder { color: #880e4f; }
+.placeholder-material-dark-pink::-ms-input-placeholder { color: #880e4f; }
+.placeholder-material-dark-pink::placeholder { color: #880e4f; }
+.placeholder-material-deep-light-purple::-webkit-input-placeholder { color: #d1c4e9; }
+.placeholder-material-deep-light-purple:-ms-input-placeholder { color: #d1c4e9; }
+.placeholder-material-deep-light-purple::-ms-input-placeholder { color: #d1c4e9; }
+.placeholder-material-deep-light-purple::placeholder { color: #d1c4e9; }
+.placeholder-material-deep-purple::-webkit-input-placeholder { color: #673ab7; }
+.placeholder-material-deep-purple:-ms-input-placeholder { color: #673ab7; }
+.placeholder-material-deep-purple::-ms-input-placeholder { color: #673ab7; }
+.placeholder-material-deep-purple::placeholder { color: #673ab7; }
+.placeholder-material-deep-dark-purple::-webkit-input-placeholder { color: #311b92; }
+.placeholder-material-deep-dark-purple:-ms-input-placeholder { color: #311b92; }
+.placeholder-material-deep-dark-purple::-ms-input-placeholder { color: #311b92; }
+.placeholder-material-deep-dark-purple::placeholder { color: #311b92; }
+.placeholder-material-indigo::-webkit-input-placeholder { color: #3f51b5; }
+.placeholder-material-indigo:-ms-input-placeholder { color: #3f51b5; }
+.placeholder-material-indigo::-ms-input-placeholder { color: #3f51b5; }
+.placeholder-material-indigo::placeholder { color: #3f51b5; }
+.placeholder-material-dark-indigo::-webkit-input-placeholder { color: #1a237e; }
+.placeholder-material-dark-indigo:-ms-input-placeholder { color: #1a237e; }
+.placeholder-material-dark-indigo::-ms-input-placeholder { color: #1a237e; }
+.placeholder-material-dark-indigo::placeholder { color: #1a237e; }
+.placeholder-material-light-indigo::-webkit-input-placeholder { color: #c5cae9; }
+.placeholder-material-light-indigo:-ms-input-placeholder { color: #c5cae9; }
+.placeholder-material-light-indigo::-ms-input-placeholder { color: #c5cae9; }
+.placeholder-material-light-indigo::placeholder { color: #c5cae9; }
+.placeholder-material-blue::-webkit-input-placeholder { color: #2196f3; }
+.placeholder-material-blue:-ms-input-placeholder { color: #2196f3; }
+.placeholder-material-blue::-ms-input-placeholder { color: #2196f3; }
+.placeholder-material-blue::placeholder { color: #2196f3; }
+.placeholder-material-dark-blue::-webkit-input-placeholder { color: #0d47a1; }
+.placeholder-material-dark-blue:-ms-input-placeholder { color: #0d47a1; }
+.placeholder-material-dark-blue::-ms-input-placeholder { color: #0d47a1; }
+.placeholder-material-dark-blue::placeholder { color: #0d47a1; }
+.placeholder-material-light-blue::-webkit-input-placeholder { color: #bbdefb; }
+.placeholder-material-light-blue:-ms-input-placeholder { color: #bbdefb; }
+.placeholder-material-light-blue::-ms-input-placeholder { color: #bbdefb; }
+.placeholder-material-light-blue::placeholder { color: #bbdefb; }
+.placeholder-teal::-webkit-input-placeholder { color: #009688; }
+.placeholder-teal:-ms-input-placeholder { color: #009688; }
+.placeholder-teal::-ms-input-placeholder { color: #009688; }
+.placeholder-teal::placeholder { color: #009688; }
+.placeholder-dark-teal::-webkit-input-placeholder { color: #004d40; }
+.placeholder-dark-teal:-ms-input-placeholder { color: #004d40; }
+.placeholder-dark-teal::-ms-input-placeholder { color: #004d40; }
+.placeholder-dark-teal::placeholder { color: #004d40; }
+.placeholder-light-teal::-webkit-input-placeholder { color: #b2dfdb; }
+.placeholder-light-teal:-ms-input-placeholder { color: #b2dfdb; }
+.placeholder-light-teal::-ms-input-placeholder { color: #b2dfdb; }
+.placeholder-light-teal::placeholder { color: #b2dfdb; }
+.placeholder-material-green::-webkit-input-placeholder { color: #4caf50; }
+.placeholder-material-green:-ms-input-placeholder { color: #4caf50; }
+.placeholder-material-green::-ms-input-placeholder { color: #4caf50; }
+.placeholder-material-green::placeholder { color: #4caf50; }
+.placeholder-material-dark-green::-webkit-input-placeholder { color: #1b5e20; }
+.placeholder-material-dark-green:-ms-input-placeholder { color: #1b5e20; }
+.placeholder-material-dark-green::-ms-input-placeholder { color: #1b5e20; }
+.placeholder-material-dark-green::placeholder { color: #1b5e20; }
+.placeholder-material-light-green::-webkit-input-placeholder { color: #c8e6c9; }
+.placeholder-material-light-green:-ms-input-placeholder { color: #c8e6c9; }
+.placeholder-material-light-green::-ms-input-placeholder { color: #c8e6c9; }
+.placeholder-material-light-green::placeholder { color: #c8e6c9; }
+.placeholder-lime::-webkit-input-placeholder { color: #cddc39; }
+.placeholder-lime:-ms-input-placeholder { color: #cddc39; }
+.placeholder-lime::-ms-input-placeholder { color: #cddc39; }
+.placeholder-lime::placeholder { color: #cddc39; }
+.placeholder-dark-lime::-webkit-input-placeholder { color: #827717; }
+.placeholder-dark-lime:-ms-input-placeholder { color: #827717; }
+.placeholder-dark-lime::-ms-input-placeholder { color: #827717; }
+.placeholder-dark-lime::placeholder { color: #827717; }
+.placeholder-light-lime::-webkit-input-placeholder { color: #f0f4c3; }
+.placeholder-light-lime:-ms-input-placeholder { color: #f0f4c3; }
+.placeholder-light-lime::-ms-input-placeholder { color: #f0f4c3; }
+.placeholder-light-lime::placeholder { color: #f0f4c3; }
+.placeholder-amber::-webkit-input-placeholder { color: #ffc107; }
+.placeholder-amber:-ms-input-placeholder { color: #ffc107; }
+.placeholder-amber::-ms-input-placeholder { color: #ffc107; }
+.placeholder-amber::placeholder { color: #ffc107; }
+.placeholder-dark-amber::-webkit-input-placeholder { color: #ff6f00; }
+.placeholder-dark-amber:-ms-input-placeholder { color: #ff6f00; }
+.placeholder-dark-amber::-ms-input-placeholder { color: #ff6f00; }
+.placeholder-dark-amber::placeholder { color: #ff6f00; }
+.placeholder-light-amber::-webkit-input-placeholder { color: #ffecb3; }
+.placeholder-light-amber:-ms-input-placeholder { color: #ffecb3; }
+.placeholder-light-amber::-ms-input-placeholder { color: #ffecb3; }
+.placeholder-light-amber::placeholder { color: #ffecb3; }
+.placeholder-material-orange::-webkit-input-placeholder { color: #ff9800; }
+.placeholder-material-orange:-ms-input-placeholder { color: #ff9800; }
+.placeholder-material-orange::-ms-input-placeholder { color: #ff9800; }
+.placeholder-material-orange::placeholder { color: #ff9800; }
+.placeholder-material-dark-orange::-webkit-input-placeholder { color: #e65100; }
+.placeholder-material-dark-orange:-ms-input-placeholder { color: #e65100; }
+.placeholder-material-dark-orange::-ms-input-placeholder { color: #e65100; }
+.placeholder-material-dark-orange::placeholder { color: #e65100; }
+.placeholder-material-light-orange::-webkit-input-placeholder { color: #ffe0b2; }
+.placeholder-material-light-orange:-ms-input-placeholder { color: #ffe0b2; }
+.placeholder-material-light-orange::-ms-input-placeholder { color: #ffe0b2; }
+.placeholder-material-light-orange::placeholder { color: #ffe0b2; }
+.placeholder-brown::-webkit-input-placeholder { color: #795548; }
+.placeholder-brown:-ms-input-placeholder { color: #795548; }
+.placeholder-brown::-ms-input-placeholder { color: #795548; }
+.placeholder-brown::placeholder { color: #795548; }
+.placeholder-dark-brown::-webkit-input-placeholder { color: #3e2723; }
+.placeholder-dark-brown:-ms-input-placeholder { color: #3e2723; }
+.placeholder-dark-brown::-ms-input-placeholder { color: #3e2723; }
+.placeholder-dark-brown::placeholder { color: #3e2723; }
+.placeholder-light-brown::-webkit-input-placeholder { color: #d7ccc8; }
+.placeholder-light-brown:-ms-input-placeholder { color: #d7ccc8; }
+.placeholder-light-brown::-ms-input-placeholder { color: #d7ccc8; }
+.placeholder-light-brown::placeholder { color: #d7ccc8; }
+.placeholder-blue-gray::-webkit-input-placeholder { color: #607d8b; }
+.placeholder-blue-gray:-ms-input-placeholder { color: #607d8b; }
+.placeholder-blue-gray::-ms-input-placeholder { color: #607d8b; }
+.placeholder-blue-gray::placeholder { color: #607d8b; }
+.placeholder-dark-blue-gray::-webkit-input-placeholder { color: #263238; }
+.placeholder-dark-blue-gray:-ms-input-placeholder { color: #263238; }
+.placeholder-dark-blue-gray::-ms-input-placeholder { color: #263238; }
+.placeholder-dark-blue-gray::placeholder { color: #263238; }
+.placeholder-light-blue-gray::-webkit-input-placeholder { color: #cfd8dc; }
+.placeholder-light-blue-gray:-ms-input-placeholder { color: #cfd8dc; }
+.placeholder-light-blue-gray::-ms-input-placeholder { color: #cfd8dc; }
+.placeholder-light-blue-gray::placeholder { color: #cfd8dc; }
+.placeholder-pastel-dark-green::-webkit-input-placeholder { color: #68c4af; }
+.placeholder-pastel-dark-green:-ms-input-placeholder { color: #68c4af; }
+.placeholder-pastel-dark-green::-ms-input-placeholder { color: #68c4af; }
+.placeholder-pastel-dark-green::placeholder { color: #68c4af; }
+.placeholder-pastel-green::-webkit-input-placeholder { color: #96ead7; }
+.placeholder-pastel-green:-ms-input-placeholder { color: #96ead7; }
+.placeholder-pastel-green::-ms-input-placeholder { color: #96ead7; }
+.placeholder-pastel-green::placeholder { color: #96ead7; }
+.placeholder-pastel-light-green::-webkit-input-placeholder { color: #b8dbd3; }
+.placeholder-pastel-light-green:-ms-input-placeholder { color: #b8dbd3; }
+.placeholder-pastel-light-green::-ms-input-placeholder { color: #b8dbd3; }
+.placeholder-pastel-light-green::placeholder { color: #b8dbd3; }
+.placeholder-pastel-light-red::-webkit-input-placeholder { color: #ffbdbd; }
+.placeholder-pastel-light-red:-ms-input-placeholder { color: #ffbdbd; }
+.placeholder-pastel-light-red::-ms-input-placeholder { color: #ffbdbd; }
+.placeholder-pastel-light-red::placeholder { color: #ffbdbd; }
+.placeholder-pastel-lime::-webkit-input-placeholder { color: #e1e9b7; }
+.placeholder-pastel-lime:-ms-input-placeholder { color: #e1e9b7; }
+.placeholder-pastel-lime::-ms-input-placeholder { color: #e1e9b7; }
+.placeholder-pastel-lime::placeholder { color: #e1e9b7; }
+.placeholder-pastel-yellow::-webkit-input-placeholder { color: #ffffba; }
+.placeholder-pastel-yellow:-ms-input-placeholder { color: #ffffba; }
+.placeholder-pastel-yellow::-ms-input-placeholder { color: #ffffba; }
+.placeholder-pastel-yellow::placeholder { color: #ffffba; }
+.placeholder-pastel-orange::-webkit-input-placeholder { color: #ffdfba; }
+.placeholder-pastel-orange:-ms-input-placeholder { color: #ffdfba; }
+.placeholder-pastel-orange::-ms-input-placeholder { color: #ffdfba; }
+.placeholder-pastel-orange::placeholder { color: #ffdfba; }
+.placeholder-pastel-red::-webkit-input-placeholder { color: #f96161; }
+.placeholder-pastel-red:-ms-input-placeholder { color: #f96161; }
+.placeholder-pastel-red::-ms-input-placeholder { color: #f96161; }
+.placeholder-pastel-red::placeholder { color: #f96161; }
+.placeholder-pastel-light-brown::-webkit-input-placeholder { color: #d0b783; }
+.placeholder-pastel-light-brown:-ms-input-placeholder { color: #d0b783; }
+.placeholder-pastel-light-brown::-ms-input-placeholder { color: #d0b783; }
+.placeholder-pastel-light-brown::placeholder { color: #d0b783; }
+.placeholder-pastel-light-blue::-webkit-input-placeholder { color: #c9c9ff; }
+.placeholder-pastel-light-blue:-ms-input-placeholder { color: #c9c9ff; }
+.placeholder-pastel-light-blue::-ms-input-placeholder { color: #c9c9ff; }
+.placeholder-pastel-light-blue::placeholder { color: #c9c9ff; }
+.placeholder-material-yellow::-webkit-input-placeholder { color: #ffeb3b; }
+.placeholder-material-yellow:-ms-input-placeholder { color: #ffeb3b; }
+.placeholder-material-yellow::-ms-input-placeholder { color: #ffeb3b; }
+.placeholder-material-yellow::placeholder { color: #ffeb3b; }
+.placeholder-material-dark-yellow::-webkit-input-placeholder { color: #fbc02d; }
+.placeholder-material-dark-yellow:-ms-input-placeholder { color: #fbc02d; }
+.placeholder-material-dark-yellow::-ms-input-placeholder { color: #fbc02d; }
+.placeholder-material-dark-yellow::placeholder { color: #fbc02d; }
+.placeholder-material-light-yellow::-webkit-input-placeholder { color: #fff59d; }
+.placeholder-material-light-yellow:-ms-input-placeholder { color: #fff59d; }
+.placeholder-material-light-yellow::-ms-input-placeholder { color: #fff59d; }
+.placeholder-material-light-yellow::placeholder { color: #fff59d; }
+.placeholder-material-cyan::-webkit-input-placeholder { color: #00bcd4; }
+.placeholder-material-cyan:-ms-input-placeholder { color: #00bcd4; }
+.placeholder-material-cyan::-ms-input-placeholder { color: #00bcd4; }
+.placeholder-material-cyan::placeholder { color: #00bcd4; }
+.placeholder-material-dark-cyan::-webkit-input-placeholder { color: #00838f; }
+.placeholder-material-dark-cyan:-ms-input-placeholder { color: #00838f; }
+.placeholder-material-dark-cyan::-ms-input-placeholder { color: #00838f; }
+.placeholder-material-dark-cyan::placeholder { color: #00838f; }
+.placeholder-material-light-cyan::-webkit-input-placeholder { color: #b2ebf2; }
+.placeholder-material-light-cyan:-ms-input-placeholder { color: #b2ebf2; }
+.placeholder-material-light-cyan::-ms-input-placeholder { color: #b2ebf2; }
+.placeholder-material-light-cyan::placeholder { color: #b2ebf2; }
 /* Variables */
 /* Importing here will allow you to override any variables in the modules */
 /*
