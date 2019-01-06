@@ -30,6 +30,7 @@
 /* Modules */
 @import "./_background-position";
 @import "./_background-size";
+@import "./_button";
 @import "./_border-colors";
 @import "./_border-radius";
 @import "./_border-style";
@@ -48,6 +49,7 @@
 @import "./_font-weight";
 @import "./_forms";
 @import "./_heights";
+@import "./_slider";
 @import "./_hovers";
 @import "./_images";
 @import "./_letter-spacing";
@@ -56,7 +58,6 @@
 @import "./_lists";
 @import "./_max-widths";
 @import "./_negative-margins";
-@import "./_nested";
 @import "./_opacity";
 @import "./_outlines";
 @import "./_overflow";
