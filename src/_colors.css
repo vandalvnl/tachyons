@@ -1,18 +1,5 @@
-/*
-
-   Tachyons
-   COLOR VARIABLES
-
-   Grayscale
-   - Solids
-   - Transparencies
-   Colors
-
-*/
-
 :root {
-    --amber: #fec007;
-    --aqua: #00c8b3;
+    --transparent: transparent;
     --black-0125: #00000003;
     --black-025: #00000006;
     --black-05: #0000000d;
@@ -25,40 +12,42 @@
     --black-70: #000000b3;
     --black-80: #000000cc;
     --black-90: #000000e6;
+    --near-black: #181818;
     --black: #000;
-    --blue: #2195f2;
-    --brown: #785447;
-    --dark-blue: #2a6dbf;
-    --dark-deep-blue: #142032;
-    --dark-gray: #333;
-    --dark-green: #00ad7c;
-    --dark-orange: #fe5622;
-    --dark-purple: #42057a;
-    --dark-red: #8f1d14;
-    --gray: #777;
-    --green: #4bae4f;
-    --indigo: #3e50b4;
-    --light-blue: #03a8f3;
+    --light-blue: #6cb2eb;
+    --dark-blue: #1c3d5a;
+    --blue: #2779bd;
+    --dark-deep-blue: #12283a;
+    --indigo: #5661b3;
+    --dark-indigo: #2f365f;
+    --light-indigo: #7886d7;
+    --light-green: #51d88a;
+    --dark-green: #1a4731;
+    --green: #1f9d55;
+    --dark-purple: #3e2866;
+    --purple: #54368a;
+    --light-purple: #8873ad;
+    --yellow: #f2d024;
+    --dark-yellow: #684f1d;
+    --light-yellow: #fff382;
+    --orange: #de751f;
+    --dark-orange: #613b1f;
+    --light-orange: #faad63;
     --light-gray: #eee;
-    --light-lilac: #7971ea;
-    --light-orange: #ff8f56;
-    --light-pink: #f185b3;
-    --light-red: #db3951;
     --light-silver: #aaa;
-    --lilac: #5d50c6;
+    --silver: #d4d4d4;
     --mid-gray: #555;
     --moon-gray: #ccc;
-    --near-black: #181818;
-    --near-white: #f4f4f4;
-    --orange: #fe9700;
-    --pink: #e81e62;
-    --purple: #8b3cc7;
-    --red: #fc2c1d;
-    --salmon: #ed8d8d;
-    --silver: #d4d4d4;
-    --teal: #009587;
-    --transparent: transparent;
+    --dark-gray: #333;
     --washed-gray: #393e46;
+    --dark-red: #b42823;
+    --red: #e23933;
+    --light-red: #e47f7b;
+    --light-pink: #fa7ea8;
+    --pink: #eb5286;
+    --dark-pink: #6f213f;
+    --brown: #785447;
+    --near-white: #f4f4f4;
     --white-0125: #ffffff03;
     --white-025: #ffffff06;
     --white-05: #ffffff0d;
@@ -72,5 +61,4 @@
     --white-80: #ffffffcc;
     --white-90: #ffffffe6;
     --white: #fff;
-    --yellow: #feea3b;
 }
